@@ -1,0 +1,1547 @@
+/* ============================================================
+   SweetLimits - Authentic Professional Design System
+   Crafted & Anti-Slop: Clean Grids, Purposeful Radii, Crisp Vectors
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Brand Emerald - Grounded, Trustworthy, Organic Health */
+  --primary: #059669;
+  --primary-hover: #047857;
+  --primary-dark: #065F46;
+  --primary-deep: #022C22;
+  --primary-soft: #ECFDF5;
+  --primary-border: #A7F3D0;
+  
+  /* Status Colors */
+  --warning: #D97706;
+  --warning-bg: #FFFBEB;
+  --warning-border: #FDE68A;
+  
+  --danger: #DC2626;
+  --danger-bg: #FEF2F2;
+  --danger-border: #FECACA;
+
+  --info: #2563EB;
+  --info-bg: #EFF6FF;
+  --info-border: #BFDBFE;
+
+  /* Surfaces - Clean, High Contrast, Matte (No Slop Blobs) */
+  --bg-page: #0B1120;
+  --bg-app: #F8FAFC;
+  --bg-card: #FFFFFF;
+  --bg-subtle: #F1F5F9;
+  
+  /* Text System */
+  --text-main: #0F172A;
+  --text-body: #334155;
+  --text-muted: #64748B;
+  --text-light: #94A3B8;
+  
+  /* Borders & Dividers */
+  --border-card: #E2E8F0;
+  --border-light: #F1F5F9;
+  
+  /* Natural Depth (Elevation, not Floating Orbs) */
+  --shadow-xs: 0 1px 2px rgba(15, 23, 42, 0.04);
+  --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.06), 0 1px 2px rgba(15, 23, 42, 0.04);
+  --shadow-md: 0 4px 6px -1px rgba(15, 23, 42, 0.06), 0 2px 4px -2px rgba(15, 23, 42, 0.04);
+  --shadow-dock: 0 10px 25px -5px rgba(15, 23, 42, 0.1), 0 8px 10px -6px rgba(15, 23, 42, 0.05);
+
+  /* Purposeful Radii (No "Everything is a Pill" Slop) */
+  --radius-xs: 6px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-full: 9999px;
+  
+  /* Typography */
+  --font-heading: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg-page);
+  color: var(--text-main);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+/* ============================================================
+   TOP CONTROLLER TOOLBAR (For Evaluation & Figma Inspection)
+   ============================================================ */
+.proto-toolbar {
+  width: 100%;
+  background: #0F172A;
+  border-bottom: 1px solid #1E293B;
+  padding: 10px 24px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  z-index: 1000;
+}
+
+.proto-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #F8FAFC;
+}
+
+.proto-logo-badge {
+  background: var(--primary);
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 800;
+  font-size: 15px;
+  font-family: var(--font-heading);
+}
+
+.proto-title {
+  font-family: var(--font-heading);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.proto-tag {
+  background: rgba(5, 150, 105, 0.15);
+  color: #34D399;
+  border: 1px solid rgba(5, 150, 105, 0.3);
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: var(--radius-xs);
+  font-weight: 600;
+}
+
+.proto-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.proto-select {
+  background: #1E293B;
+  color: #E2E8F0;
+  border: 1px solid #334155;
+  padding: 6px 10px;
+  border-radius: var(--radius-xs);
+  font-size: 12.5px;
+  font-family: var(--font-heading);
+  cursor: pointer;
+  outline: none;
+}
+
+.proto-select:focus {
+  border-color: var(--primary);
+}
+
+.proto-btn {
+  background: #1E293B;
+  color: #F8FAFC;
+  border: 1px solid #334155;
+  padding: 6px 12px;
+  border-radius: var(--radius-xs);
+  font-size: 12px;
+  font-weight: 600;
+  font-family: var(--font-heading);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.15s ease;
+}
+
+.proto-btn:hover {
+  background: #334155;
+}
+
+/* ============================================================
+   DEVICE FRAME (iPhone 15 Pro Ratio: 390 x 844)
+   ============================================================ */
+.proto-workspace {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 16px 40px;
+  position: relative;
+}
+
+.device-container {
+  width: 390px;
+  height: 844px;
+  background: var(--bg-app);
+  border-radius: 48px;
+  box-shadow: 0 0 0 10px #1E293B, 0 0 0 12px #334155, 0 25px 60px rgba(0, 0, 0, 0.6);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.device-container.mode-responsive {
+  width: 100%;
+  max-width: 480px;
+  height: 860px;
+  border-radius: 32px;
+}
+
+/* Realistic Status Bar */
+.device-notch-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 24px 0;
+  z-index: 100;
+  pointer-events: none;
+}
+
+.device-time {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: var(--font-heading);
+  color: var(--text-main);
+  letter-spacing: -0.2px;
+}
+
+.device-island {
+  width: 108px;
+  height: 28px;
+  background: #000000;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+.device-icons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+/* App Viewport & Scroll Area */
+.app-viewport {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-app);
+}
+
+.screens-wrapper {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.screens-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.screen-view {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  padding: 56px 16px 110px; /* Room for Status Bar (top) & Bottom Nav (bottom) */
+  background: var(--bg-surface);
+  display: none;
+  flex-direction: column;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  z-index: 10;
+}
+
+.screen-view.active {
+  display: flex;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.screen-view.screen-immersive {
+  padding-bottom: 24px;
+}
+
+/* ============================================================
+   BOTTOM NAVIGATION BAR (3 Items: Beranda, Center Scan, Riwayat)
+   Scan is Perfectly Centered!
+   ============================================================ */
+.bottom-nav {
+  position: absolute;
+  bottom: 14px;
+  left: 24px;
+  right: 24px;
+  height: 64px;
+  background: rgba(255, 255, 255, 0.98);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 28px;
+  border: 1px solid var(--border-card);
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 0 12px;
+  z-index: 50;
+  box-shadow: var(--shadow-dock);
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-muted);
+  font-family: var(--font-heading);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: var(--radius-sm);
+  transition: all 0.15s ease;
+}
+
+.nav-item svg {
+  width: 22px;
+  height: 22px;
+  stroke: currentColor;
+  stroke-width: 2;
+  transition: all 0.15s ease;
+}
+
+.nav-item.active {
+  color: var(--primary);
+}
+
+.nav-item.active svg {
+  stroke: var(--primary);
+  transform: translateY(-1px);
+}
+
+/* Dead-Center Prominent SmartScan Button */
+.nav-item.nav-scan-center {
+  position: relative;
+  top: -12px;
+  padding: 0 8px;
+}
+
+.nav-scan-circle {
+  width: 50px;
+  height: 50px;
+  background: var(--primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 0 4px 14px rgba(5, 150, 105, 0.4);
+  border: 3px solid #FFFFFF;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.nav-scan-circle:hover {
+  background: var(--primary-hover);
+  transform: scale(1.05);
+}
+
+.nav-scan-circle:active {
+  transform: scale(0.95);
+}
+
+.nav-scan-text {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--primary-dark);
+  margin-top: 3px;
+}
+
+/* ============================================================
+   HEADER & USER PROFILE AVATAR COMPONENT
+   ============================================================ */
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+  width: 100%;
+}
+
+.screen-header-center {
+  font-family: var(--font-heading);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-main);
+  letter-spacing: -0.2px;
+}
+
+.screen-header-brand {
+  font-family: var(--font-heading);
+  font-size: 17px;
+  font-weight: 800;
+  color: var(--primary-dark);
+  letter-spacing: -0.3px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.header-icon-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-sm);
+  background: #FFFFFF;
+  border: 1px solid var(--border-card);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--text-main);
+  box-shadow: var(--shadow-xs);
+  transition: all 0.15s ease;
+}
+
+.header-icon-btn:hover {
+  background: var(--bg-subtle);
+  border-color: #CBD5E1;
+}
+
+/* User Greeting & Header Profile Trigger */
+.user-greeting-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.user-greeting-name {
+  font-family: var(--font-heading);
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--text-main);
+  letter-spacing: -0.3px;
+}
+
+.user-greeting-date {
+  font-size: 12px;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 2px;
+}
+
+/* Real Avatar Trigger in Header */
+.user-avatar-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #FFFFFF;
+  border: 1px solid var(--border-card);
+  padding: 3px 10px 3px 3px;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  box-shadow: var(--shadow-xs);
+  transition: all 0.15s ease;
+}
+
+.user-avatar-btn:hover {
+  border-color: var(--primary);
+  background: var(--primary-soft);
+}
+
+.user-avatar-photo {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #D1FAE5;
+  border: 2px solid var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-heading);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--primary-dark);
+  position: relative;
+  overflow: hidden;
+}
+
+.user-avatar-photo svg {
+  width: 100%;
+  height: 100%;
+}
+
+.user-online-dot {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 9px;
+  height: 9px;
+  background: var(--primary);
+  border: 1.5px solid white;
+  border-radius: 50%;
+}
+
+.user-avatar-label {
+  font-family: var(--font-heading);
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+/* ============================================================
+   CRAFTED ATOMIC COMPONENTS (ANTI-SLOP)
+   ============================================================ */
+
+/* Clean Card (Crisp 1px border, no muddy gradients) */
+.card-clean {
+  background: var(--bg-card);
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-lg);
+  padding: 16px;
+  box-shadow: var(--shadow-xs);
+  margin-bottom: 12px;
+  position: relative;
+}
+
+/* Purposeful Badges (Rectangular Chips, Not Exaggerated Pills) */
+.pill-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 8px;
+  border-radius: var(--radius-xs);
+  font-size: 11px;
+  font-weight: 600;
+  font-family: var(--font-heading);
+  line-height: 1.3;
+}
+
+.pill-success {
+  background: var(--primary-soft);
+  color: var(--primary-dark);
+}
+
+.pill-warning {
+  background: var(--warning-bg);
+  color: var(--warning);
+}
+
+.pill-danger {
+  background: var(--danger-bg);
+  color: var(--danger);
+}
+
+.pill-neutral {
+  background: var(--bg-subtle);
+  color: var(--text-body);
+}
+
+.pill-info {
+  background: var(--info-bg);
+  color: var(--info);
+}
+
+/* Clean Action Buttons (12px radius, solid and bold) */
+.btn-primary {
+  width: 100%;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: var(--radius-md);
+  padding: 12px 18px;
+  font-family: var(--font-heading);
+  font-size: 13.5px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-shadow: 0 2px 6px rgba(5, 150, 105, 0.25);
+  transition: all 0.15s ease;
+}
+
+.btn-primary:hover {
+  background: var(--primary-hover);
+  box-shadow: 0 4px 10px rgba(5, 150, 105, 0.35);
+}
+
+.btn-primary:active {
+  transform: translateY(1px);
+}
+
+.btn-secondary {
+  width: 100%;
+  background: #FFFFFF;
+  color: var(--text-main);
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-md);
+  padding: 11px 16px;
+  font-family: var(--font-heading);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  transition: all 0.15s ease;
+}
+
+.btn-secondary:hover {
+  background: var(--bg-subtle);
+  border-color: #CBD5E1;
+}
+
+.btn-soft-purple {
+  background: #F5F3FF;
+  color: #6D28D9;
+  border: 1px solid #DDD6FE;
+}
+
+.btn-soft-purple:hover {
+  background: #EDE9FE;
+}
+
+/* Clean Form Controls (No 9999px Pill Inputs) */
+.form-group {
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+.form-label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-main);
+  margin-bottom: 4px;
+}
+
+.form-input-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.form-input {
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-md);
+  padding: 10px 14px;
+  font-size: 13px;
+  font-family: var(--font-body);
+  color: var(--text-main);
+  outline: none;
+  transition: border-color 0.15s ease;
+}
+
+.form-input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(5, 150, 105, 0.12);
+}
+
+.form-input-with-icon {
+  padding-left: 38px;
+}
+
+.input-icon-left {
+  position: absolute;
+  left: 12px;
+  color: var(--text-muted);
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+}
+
+.input-icon-right {
+  position: absolute;
+  right: 12px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+}
+
+/* Section Header */
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 14px 0 10px;
+}
+
+.section-title {
+  font-family: var(--font-heading);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-main);
+  letter-spacing: -0.2px;
+}
+
+.section-link {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--primary);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* ============================================================
+   SCREEN 1: SPLASH SCREEN
+   ============================================================ */
+#screen-splash {
+  background: linear-gradient(180deg, #ECFDF5 0%, #F8FAFC 50%);
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 56px 20px 32px;
+}
+
+.splash-logo-card {
+  width: 96px;
+  height: 96px;
+  background: #FFFFFF;
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: var(--shadow-sm);
+  margin: 0 auto 18px;
+}
+
+.splash-title {
+  font-family: var(--font-heading);
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--primary-deep);
+  letter-spacing: -0.4px;
+}
+
+.splash-sub {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin: 4px 0 12px;
+}
+
+/* ============================================================
+   SCREEN 2: ONBOARDING SCREEN
+   ============================================================ */
+#screen-onboarding {
+  justify-content: space-between;
+  padding: 56px 20px 32px;
+}
+
+.onboarding-mock-card {
+  background: #FFFFFF;
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-xl);
+  padding: 16px;
+  box-shadow: var(--shadow-sm);
+  margin: 16px 0 24px;
+}
+
+.ocr-scanner-frame {
+  background: #F8FAFC;
+  border: 1.5px dashed var(--border-card);
+  border-radius: var(--radius-md);
+  padding: 16px 14px;
+  margin-top: 10px;
+}
+
+/* ============================================================
+   SCREEN 3: AUTH (MASUK & REGISTRASI)
+   ============================================================ */
+.auth-segmented {
+  display: flex;
+  background: var(--bg-subtle);
+  border-radius: var(--radius-md);
+  padding: 3px;
+  margin-bottom: 16px;
+}
+
+.auth-tab-btn {
+  flex: 1;
+  border: none;
+  background: transparent;
+  padding: 8px 12px;
+  font-size: 12.5px;
+  font-weight: 600;
+  font-family: var(--font-heading);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  color: var(--text-muted);
+  transition: all 0.15s ease;
+}
+
+.auth-tab-btn.active {
+  background: #FFFFFF;
+  color: var(--text-main);
+  box-shadow: var(--shadow-xs);
+}
+
+.social-btns-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.social-btn-box {
+  background: #FFFFFF;
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-md);
+  padding: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: var(--font-heading);
+  color: var(--text-main);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.social-btn-box:hover {
+  background: var(--bg-subtle);
+}
+
+/* ============================================================
+   SCREEN 4: PERSONAL SUGAR LIMIT SETTINGS
+   ============================================================ */
+.gender-pills-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.gender-box-btn {
+  background: #FFFFFF;
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-md);
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: var(--font-heading);
+  cursor: pointer;
+  color: var(--text-body);
+  transition: all 0.15s ease;
+}
+
+.gender-box-btn.active {
+  background: var(--primary-soft);
+  color: var(--primary-dark);
+  border-color: var(--primary);
+}
+
+.activity-cards-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.activity-tile {
+  background: #FFFFFF;
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-md);
+  padding: 12px 10px;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.15s ease;
+}
+
+.activity-tile.active {
+  background: var(--primary-soft);
+  border-color: var(--primary);
+}
+
+/* ============================================================
+   SCREEN 5: DASHBOARD BERANDA (HOME)
+   ============================================================ */
+.home-sugar-card {
+  background: #FFFFFF;
+  border-radius: 28px;
+  padding: 22px 18px 20px;
+  border: 1px solid var(--border-card);
+  box-shadow: 0 4px 20px rgba(15, 23, 42, 0.04);
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.sugar-donut-wrapper {
+  position: relative;
+  width: 170px;
+  height: 170px;
+  margin: 4px auto 0;
+}
+
+.sugar-donut-svg {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+.sugar-donut-bg {
+  stroke: #E2E8F0;
+  stroke-width: 16;
+  fill: transparent;
+}
+
+.sugar-donut-fill {
+  stroke: #00A86B;
+  stroke-width: 16;
+  stroke-linecap: round;
+  fill: transparent;
+  stroke-dasharray: 402.1;
+  stroke-dashoffset: 128.7;
+  transition: stroke-dashoffset 0.8s ease, stroke 0.3s ease;
+}
+
+.sugar-donut-center-info {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sugar-big-value {
+  font-family: var(--font-heading);
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--text-main);
+  line-height: 1;
+}
+
+.sugar-big-unit {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.sugar-sub-target {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin: 3px 0 5px;
+}
+
+/* 3 Quick Action Tiles */
+.quick-tiles-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.quick-tile-btn {
+  background: #FFFFFF;
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-md);
+  padding: 12px 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  box-shadow: var(--shadow-xs);
+  transition: all 0.15s ease;
+}
+
+.quick-tile-btn:hover {
+  border-color: var(--primary);
+  background: var(--bg-subtle);
+}
+
+.quick-tile-btn.tile-featured {
+  background: var(--primary-soft);
+  border-color: var(--primary-border);
+}
+
+.quick-tile-icon-box {
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quick-tile-icon-box.bg-primary {
+  background: var(--primary);
+  color: white;
+}
+
+.quick-tile-icon-box.bg-purple {
+  background: #EEF2FF;
+  color: #4F46E5;
+}
+
+.quick-tile-icon-box.bg-amber {
+  background: #FFFBEB;
+  color: #D97706;
+}
+
+.quick-tile-text {
+  font-family: var(--font-heading);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-main);
+  text-align: center;
+  line-height: 1.25;
+}
+
+/* Consumption Item Card (Vector Icon, Clean Row) */
+.log-item-card {
+  background: #FFFFFF;
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-md);
+  padding: 10px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  box-shadow: var(--shadow-xs);
+  transition: border-color 0.15s ease;
+}
+
+.log-item-card:hover {
+  border-color: var(--primary);
+}
+
+.log-icon-vector {
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+.log-item-details h5 {
+  font-family: var(--font-heading);
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.log-item-meta {
+  font-size: 10.5px;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 2px;
+}
+
+.log-sugar-amount {
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.log-sugar-amount .val {
+  font-family: var(--font-heading);
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--text-main);
+}
+
+.log-sugar-amount .unit {
+  font-size: 10px;
+  color: var(--text-muted);
+  display: block;
+}
+
+/* ============================================================
+   SCREEN 6: SMARTSCAN CAMERA
+   ============================================================ */
+#screen-smartscan {
+  background: #000000;
+  color: white;
+  padding: 56px 16px 20px;
+}
+
+.camera-viewfinder-bg {
+  flex: 1;
+  position: relative;
+  background: radial-gradient(circle at center, #1E293B 0%, #090D16 100%);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.camera-bottom-sheet {
+  background: #FFFFFF;
+  border-radius: var(--radius-lg);
+  padding: 14px;
+  color: var(--text-main);
+  box-shadow: var(--shadow-md);
+  margin-top: 10px;
+}
+
+/* ============================================================
+   SCREEN 7: PRODUCT ANALYSIS
+   ============================================================ */
+.product-hero-card {
+  background: #FFFFFF;
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-xl);
+  padding: 18px 14px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+/* ============================================================
+   SCREEN 8: CALCULATOR
+   ============================================================ */
+.stepper-capsule {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #FFFFFF;
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-md);
+  padding: 6px 14px;
+  margin: 10px 0;
+}
+
+.stepper-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-xs);
+  background: var(--bg-subtle);
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-main);
+}
+
+/* ============================================================
+   SCREEN 9: HISTORY & SCREEN 10: TRENDS
+   ============================================================ */
+.history-filter-scroll {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+  margin-bottom: 10px;
+}
+
+.history-filter-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.cat-pill {
+  white-space: nowrap;
+  background: #FFFFFF;
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-xs);
+  padding: 5px 12px;
+  font-size: 11.5px;
+  font-weight: 600;
+  font-family: var(--font-heading);
+  cursor: pointer;
+  color: var(--text-muted);
+  transition: all 0.15s ease;
+}
+
+.cat-pill.active {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+.chart-bars-wrap {
+  position: relative;
+  height: 140px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 4px 6px;
+  border-bottom: 1px solid var(--border-card);
+}
+
+.chart-bar-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  flex: 1;
+}
+
+.chart-bar-stem {
+  width: 18px;
+  border-radius: 4px 4px 0 0;
+  background: var(--primary);
+  transition: height 0.3s ease;
+}
+
+.chart-bar-stem.stem-over {
+  background: repeating-linear-gradient(
+    45deg,
+    #DC2626,
+    #DC2626 4px,
+    #B91C1C 4px,
+    #B91C1C 8px
+  );
+}
+
+/* ============================================================
+   SCREEN 11: NOTIFICATIONS & SCREEN 12: PROFILE
+   ============================================================ */
+.notif-item-card {
+  background: #FFFFFF;
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-md);
+  padding: 12px;
+  margin-bottom: 8px;
+  box-shadow: var(--shadow-xs);
+}
+
+.toggle-switch-ios {
+  position: relative;
+  width: 40px;
+  height: 22px;
+  display: inline-block;
+}
+
+.toggle-switch-ios input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toggle-track {
+  position: absolute;
+  cursor: pointer;
+  inset: 0;
+  background-color: #CBD5E1;
+  border-radius: 20px;
+  transition: .2s;
+}
+
+.toggle-track:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  transition: .2s;
+}
+
+input:checked + .toggle-track {
+  background-color: var(--primary);
+}
+
+input:checked + .toggle-track:before {
+  transform: translateX(18px);
+}
+
+.setting-list-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border-light);
+  cursor: pointer;
+}
+
+.setting-list-row:last-child {
+  border-bottom: none;
+}
+
+/* ============================================================
+   MODALS
+   ============================================================ */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.7);
+  backdrop-filter: blur(4px);
+  z-index: 2000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.modal-overlay.active {
+  display: flex;
+}
+
+.modal-content {
+  background: white;
+  width: 100%;
+  max-width: 440px;
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  box-shadow: var(--shadow-dock);
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: var(--bg-subtle);
+  border: none;
+  width: 28px;
+  height: 28px;
+  border-radius: var(--radius-xs);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  font-weight: 700;
+}
+
+.figma-split-modal {
+  max-width: 840px;
+}
+
+.figma-split-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.figma-img-wrapper {
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  max-height: 520px;
+  overflow-y: auto;
+}
+
+.figma-img-wrapper img {
+  width: 100%;
+  display: block;
+}
+
+
+/* Profile Screen Specific Components */
+.profile-hero-tile {
+  background: #FFFFFF;
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-lg);
+  padding: 20px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+  box-shadow: var(--shadow-xs);
+}
+
+.profile-avatar-circle {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background: #D1FAE5;
+  border: 2.5px solid var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.profile-tri-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  width: 100%;
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.profile-metric-item {
+  text-align: center;
+}
+
+
+/* ============================================================
+   5-ITEM SHORTCUT BAR (Beranda > Catat > Scan > Cek Aman > Riwayat)
+   ============================================================ */
+.bottom-nav-5 {
+  position: absolute;
+  bottom: 12px;
+  left: 16px;
+  right: 16px;
+  height: 64px;
+  background: rgba(255, 255, 255, 0.98);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 28px;
+  border: 1px solid var(--border-card);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  padding: 0 4px;
+  z-index: 50;
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.08);
+}
+
+.nav5-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-muted);
+  font-family: var(--font-heading);
+  font-size: 10px;
+  font-weight: 600;
+  padding: 4px 2px;
+  border-radius: var(--radius-sm);
+  transition: all 0.15s ease;
+}
+
+.nav5-item svg {
+  width: 20px;
+  height: 20px;
+  stroke: currentColor;
+  stroke-width: 2;
+  transition: all 0.15s ease;
+}
+
+.nav5-item.active {
+  color: var(--primary);
+}
+
+.nav5-item.active svg {
+  stroke: var(--primary);
+  transform: translateY(-1px);
+}
+
+.nav5-item.nav5-center {
+  position: relative;
+  top: -14px;
+}
+
+.nav5-circle {
+  width: 48px;
+  height: 48px;
+  background: var(--primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 0 6px 16px rgba(5, 150, 105, 0.38);
+  border: 3px solid #FFFFFF;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.nav5-circle:hover {
+  background: var(--primary-hover);
+  transform: scale(1.05);
+}
+
+.nav5-circle:active {
+  transform: scale(0.95);
+}
+
+.nav5-center-label {
+  font-size: 9.5px;
+  font-weight: 700;
+  color: var(--primary);
+  margin-top: 1px;
+}
+
+
+/* Figma Exact Profile Menu Row */
+.profile-menu-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid #F1F5F9;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.profile-menu-row:last-child {
+  border-bottom: none;
+}
+
+.profile-menu-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}

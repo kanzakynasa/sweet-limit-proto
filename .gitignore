@@ -1,0 +1,17 @@
+# Dependency & Environment
+node_modules/
+.venv/
+__pycache__/
+
+# OS & Temp
+.DS_Store
+Thumbs.db
+*.backup.*
+*.tmp
+
+# Test artifacts
+scratch/
+test_screen_*.png
+preview_test.png
+preview_device_crop.png
+preview_verified.png

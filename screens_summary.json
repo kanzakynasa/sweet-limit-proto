@@ -1,0 +1,7970 @@
+{
+  "1. Splash Screen SweetLimits": {
+    "id": "6:323",
+    "type": "FRAME",
+    "box": {
+      "x": 0,
+      "y": 0,
+      "width": 390,
+      "height": 844
+    },
+    "texts": [
+      {
+        "text": "Panduan Nutrisi Cerdas",
+        "fontSize": 10,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "SweetLimits",
+        "fontSize": 16,
+        "fontWeight": 800,
+        "fontFamily": "Nimbus Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.0235294122248888,
+              "g": 0.30588236451148987,
+              "b": 0.23137255012989044,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Kenali Gula, Jaga Kesehatan",
+        "fontSize": 14,
+        "fontWeight": 500,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Gaya Hidup Sadar Gula",
+        "fontSize": 10,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.1882352977991104,
+              "g": 0.4274509847164154,
+              "b": 0.3450980484485626,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "STANDAR KEMENKES RI",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Batas Harian",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "opacity": 0.800000011920929,
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Maks 50g / 4 sendok makan gula per hari",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Versi 1.0 • Sahabat Hidup Sehat",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Dirancang untuk metabolisme seimbang dan bahagia",
+        "fontSize": 11,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "opacity": 0.699999988079071,
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "2. Onboarding SweetLimits": {
+    "id": "6:387",
+    "type": "FRAME",
+    "box": {
+      "x": 422,
+      "y": 0,
+      "width": 390,
+      "height": 884
+    },
+    "texts": [
+      {
+        "text": "SmartScan OCR",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.1882352977991104,
+              "g": 0.4274509847164154,
+              "b": 0.3450980484485626,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Kemasan Indonesia",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Informasi Nilai Gizi",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Gula Total: 18g",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Status Gizi Aman",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Deteksi Cepat",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Mendukung standar regulasi BPOM RI",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Pindai Label Kemasan Instan",
+        "fontSize": 16,
+        "fontWeight": 700,
+        "fontFamily": "Nimbus Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Arahkan kamera ke label nutrisi produk apapun.\nTeknologi SmartScan otomatis mendeteksi kadar\ngula tersembunyi tanpa hitung manual.",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "SweetLimits",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Lewati",
+        "fontSize": 14,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Lanjut",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Sudah punya akun?",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Masuk",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "3. Masuk & Registrasi": {
+    "id": "6:460",
+    "type": "FRAME",
+    "box": {
+      "x": 844,
+      "y": 0,
+      "width": 390,
+      "height": 895.5
+    },
+    "texts": [
+      {
+        "text": "SweetLimits",
+        "fontSize": 20,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Panduan Gula Harian Cerdas",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.1882352977991104,
+              "g": 0.4274509847164154,
+              "b": 0.3450980484485626,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Selamat Datang Kembali 👋",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "fontFamily": "Nimbus Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Lanjutkan perjalanan pola hidup sehat rendah gula\nAnda bersama SweetLimits.",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Masuk",
+        "fontSize": 14,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Daftar Akun Baru",
+        "fontSize": 14,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Email Pengguna",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "budi.santoso@gmail.com",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Kata Sandi",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "secret1234",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Ingat Saya",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Lupa Kata Sandi?",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Masuk ke SweetLimits",
+        "fontSize": 14,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Google",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Apple ID",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Pemberitahuan Gula Terstandarisasi",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Sinkronisasi data nutrisi instan dengan akurasi\nklinis Kemenkes RI.",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "atau masuk dengan",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "ENKRIPSI MEDIS 256-BIT",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Data konsumsi dan profil metabolisme Anda tersimpan aman\ndan tidak pernah dibagikan kepada pihak ketiga.",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "4. Pengaturan Batas Gula Personal": {
+    "id": "6:566",
+    "type": "FRAME",
+    "box": {
+      "x": 1266,
+      "y": 0,
+      "width": 390,
+      "height": 1668
+    },
+    "texts": [
+      {
+        "text": "Atur Profil & Target",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "LANGKAH 1 DARI 2",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "50% Selesai",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Personalisasi Batas Gula Anda",
+        "fontSize": 18,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Bantu algoritme kami menghitung batas konsumsi gula\nharian yang aman sesuai metabolisme dan profil biologis\nAnda.",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Usia (Tahun)",
+        "fontSize": 14,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "28",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "tahun",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Jenis Kelamin",
+        "fontSize": 14,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Pria",
+        "fontSize": 14,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.1882352977991104,
+              "g": 0.4274509847164154,
+              "b": 0.3450980484485626,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Wanita",
+        "fontSize": 14,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Berat Badan",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "64",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "kg",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Tinggi Badan",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "172",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "cm",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Indeks Massa Tubuh (IMT):",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "21.6 (Normal)",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.16862745583057404,
+              "g": 0.4117647111415863,
+              "b": 0.3294117748737335,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Tingkat Aktivitas Fisik",
+        "fontSize": 14,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Rutinitas Harian",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Sedentari",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Banyak duduk / minim\ngerak",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Ringan",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Jalan santai 1-2\nhari/minggu",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Aktif",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Fisik berat / atletik\nharian",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Sedang",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Olahraga 3-5\nhari/minggu",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.1882352977991104,
+              "g": 0.4274509847164154,
+              "b": 0.3450980484485626,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Kondisi atau Fokus Kesehatan",
+        "fontSize": 14,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Pencegahan Diabetes",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Pradiabetes",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Diet Rendah Kalori",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Umum & Kebugaran",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "REKOMENDASI TERPERSONALISASI",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Batas Saran Harian Anda",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Berdasarkan pedoman gizi Kemenkes RI &\nOrganisasi Kesehatan Dunia (WHO).",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "30",
+        "fontSize": 34,
+        "fontWeight": 800,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "gram / hari",
+        "fontSize": 20,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "~2.5 sdm gula",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Alokasi maksimal mencakup gula alami maupun\ntambahan.",
+        "fontSize": 11,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.16862745583057404,
+              "g": 0.4117647111415863,
+              "b": 0.3294117748737335,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Catatan:",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": " Batas ini merupakan panduan estimasi",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "informasi gizi umum. Konsultasikan dengan dokter\nspesialis gizi untuk anjuran medis khusus dan\nrencana diet klinis.",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Simpan & Masuk ke Beranda",
+        "fontSize": 14,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Data Anda tersimpan secara privat di perangkat ini.",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "5. Dashboard Beranda SweetLimits": {
+    "id": "6:738",
+    "type": "FRAME",
+    "box": {
+      "x": 1688,
+      "y": 0,
+      "width": 390,
+      "height": 1275
+    },
+    "texts": [
+      {
+        "text": "SweetLimits",
+        "fontSize": 20,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Halo, Budi! 🌿",
+        "fontSize": 16,
+        "fontWeight": 600,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Hari ini, 24 Mei 2024",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Target Gula Harian",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Kondisi Aman",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.1882352977991104,
+              "g": 0.4274509847164154,
+              "b": 0.3450980484485626,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "20.5 ",
+        "fontSize": 34,
+        "fontWeight": 800,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "g",
+        "fontSize": 18,
+        "fontWeight": 500,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "dari batas 30.0 g",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "68% Terpakai",
+        "fontSize": 10,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Aksi Cepat",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Pindai\nSmartScan",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Catat Manual",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Cek Produk\nAman",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Riwayat Konsumsi Hari Ini",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Lihat Semua",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Teh Kemasan Melati 250ml",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "12.30 WIB",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Sedang",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.16470588743686676,
+              "g": 0.09019608050584793,
+              "b": 0,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "14.0 g",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.5215686559677124,
+              "g": 0.32549020648002625,
+              "b": 0,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "gula",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Yogurt Greek Plain 120ml",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "08.15 WIB",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Rendah",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.1882352977991104,
+              "g": 0.4274509847164154,
+              "b": 0.3450980484485626,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "4.5 g",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "gula",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Biskuit Gandum (2 keping)",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "15.45 WIB",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Rendah",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.1882352977991104,
+              "g": 0.4274509847164154,
+              "b": 0.3450980484485626,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "2.0 g",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "gula",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Beranda",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "SmartScan",
+        "fontSize": 10,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Riwayat",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Profil",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "Section - Banner Edukasi Tips Gizi Kemenkes": {
+    "id": "6:902",
+    "type": "FRAME",
+    "box": {
+      "x": 2278,
+      "y": -329,
+      "width": 390,
+      "height": 109
+    },
+    "texts": [
+      {
+        "text": "PANDUAN GIZI KEMENKES RI",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Tahukah kamu? 1 botol teh manis kemasan\nrata-rata mengandung hingga 20g gula atau\nsetara separuh lebih anjuran konsumsi harian!",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "Comparative Budget & Equivalent Spoon Ratio": {
+    "id": "6:791",
+    "type": "FRAME",
+    "box": {
+      "x": 1918,
+      "y": -328,
+      "width": 308,
+      "height": 103
+    },
+    "texts": [
+      {
+        "text": "SISA KUOTA",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "9.5 g",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Masih dalam batas\nsehat",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "EKUIVALEN SENDOK",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "± 1.6 sdm",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Sendok makan pasir",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "7. Analisis Gula Produk Kemasan": {
+    "id": "6:938",
+    "type": "FRAME",
+    "box": {
+      "x": 2110,
+      "y": 0,
+      "width": 390,
+      "height": 1528
+    },
+    "texts": [
+      {
+        "text": "Analisis Gula Produk",
+        "fontSize": 18,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Teh Buah Siap Minum",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Teh Rasa Apel 350ml",
+        "fontSize": 20,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Takaran saji: 1 botol (350 ml)",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "TINGGI GULA",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.5764706134796143,
+              "g": 0,
+              "b": 0.03921568766236305,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "24g",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "/ botol",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Kemasan Botol",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Peringatan Kuota Personal",
+        "fontSize": 14,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Batas Harian Anda: 30g",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "80%",
+        "fontSize": 24,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.729411780834198,
+              "g": 0.10196078568696976,
+              "b": 0.10196078568696976,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Produk ini: 24g",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Sisa kuota hari ini: 6g lagi",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Mengandung ",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "80% dari total batas harian",
+        "fontSize": 14,
+        "fontWeight": 600,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "gula Anda (30g)",
+        "fontSize": 14,
+        "fontWeight": 600,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": ". Mengonsumsi botol ini",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "menyisakan sangat sedikit ruang untuk\nmakanan/minuman manis lainnya hari ini.",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "🥄",
+        "fontSize": 24,
+        "fontWeight": 400,
+        "fontFamily": "Nimbus Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.5215686559677124,
+              "g": 0.32549020648002625,
+              "b": 0,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Ekuivalensi Sendok Teh",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Setara dengan 6 sendok\nteh gula pasir",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "(1 sdt gula pasir ≈ 4 gram)",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Informasi Nilai Gizi",
+        "fontSize": 18,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Terverifikasi BPOM RI",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.1882352977991104,
+              "g": 0.4274509847164154,
+              "b": 0.3450980484485626,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Ukuran Takaran Saji",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "350 ml (1 botol)",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Energi Total",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "130 ",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "kkal",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Natrium",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "35 ",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "mg",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Gula Total",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "24 g",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.729411780834198,
+              "g": 0.10196078568696976,
+              "b": 0.10196078568696976,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Sukrosa (Gula Tambahan)",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "22 g",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Glukosa Alami (Ekstrak Apel)",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "2 g",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Alternatif Lebih Sehat",
+        "fontSize": 18,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Rekomendasi Cerdas",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Teh Hijau / Hitam Tawar",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Tanpa gula tambahan sama sekali",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "0g Gula",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.1882352977991104,
+              "g": 0.4274509847164154,
+              "b": 0.3450980484485626,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Air Infusi Apel & Kayu Manis",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Rasa manis alami dan\nmenyegarkan",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "< 1g Gula",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.1882352977991104,
+              "g": 0.4274509847164154,
+              "b": 0.3450980484485626,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Berdasarkan tabel nilai gizi pada kemasan. Tidak\nmenggantikan diagnosa medis.",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Tambahkan ke Konsumsi Hari Ini",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.25882354378700256,
+              "b": 0.16862745583057404,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Simpan ke Daftar Pantauan",
+        "fontSize": 14,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "8. Kalkulator Asupan Gula Personal": {
+    "id": "6:1111",
+    "type": "FRAME",
+    "box": {
+      "x": 2532,
+      "y": 0,
+      "width": 390,
+      "height": 1368.5
+    },
+    "texts": [
+      {
+        "text": "Kalkulator Asupan Gula",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Profil Metabolisme Aktif",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Target Harian",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.1882352977991104,
+              "g": 0.4274509847164154,
+              "b": 0.3450980484485626,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Batas Personal",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "30",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "g",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "WHO Standar",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Telah Masuk",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "14",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.5215686559677124,
+              "g": 0.32549020648002625,
+              "b": 0,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "g",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "46% Batas",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.886274516582489,
+              "g": 0.5686274766921997,
+              "b": 0,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Sisa Aman",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "16",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "g",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Tersedia",
+        "fontSize": 10,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.062745101749897,
+              "g": 0.7254902124404907,
+              "b": 0.5058823823928833,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "0g",
+        "fontSize": 11,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Simulasi Jatah Konsumsi",
+        "fontSize": 11,
+        "fontWeight": 500,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "30g",
+        "fontSize": 11,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Cari Menu atau Produk",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Teh Susu Boba Sedang",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Tinggi Gula",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.5764706134796143,
+              "g": 0,
+              "b": 0.03921568766236305,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Minuman Manis",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Teh Susu Boba Sedang",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Basis: 18.0g gula / porsi (250 ml)",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Jumlah Porsi yang Dikonsumsi",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Ukuran: 375 ml",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "1.5",
+        "fontSize": 24,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "gelas",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "0.5 Gelas (125ml)",
+        "fontSize": 11,
+        "fontWeight": 500,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "1.5 Gelas",
+        "fontSize": 11,
+        "fontWeight": 500,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "3 Gelas (750ml)",
+        "fontSize": 11,
+        "fontWeight": 500,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Hasil Analisis Real-\nTime",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Simulasi\nTerkalkulasi",
+        "fontSize": 11,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.886274516582489,
+              "g": 0.5686274766921997,
+              "b": 0,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Estimasi Total Gula",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "27.0",
+        "fontSize": 34,
+        "fontWeight": 800,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.729411780834198,
+              "g": 0.10196078568696976,
+              "b": 0.10196078568696976,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "gram",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Setara ±6 sendok teh gula pasir",
+        "fontSize": 11,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "OVER LIMIT",
+        "fontSize": 9,
+        "fontWeight": 600,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.729411780834198,
+              "g": 0.10196078568696976,
+              "b": 0.10196078568696976,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "⚠️",
+        "fontSize": 18,
+        "fontWeight": 400,
+        "fontFamily": "FreeSans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.5215686559677124,
+              "g": 0.32549020648002625,
+              "b": 0,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Melebihi Jatah Aman Harian",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.5215686559677124,
+              "g": 0.32549020648002625,
+              "b": 0,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Melebihi sisa jatah harian Anda sebesar 11.0\ngram!",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Waktu Pembakaran Alami",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Memerlukan jalan santai ~35 menit untuk\nmenyeimbangkan metabolisme.",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Saran Pilihan Alternatif",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.12941177189350128,
+              "b": 0.09019608050584793,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Ganti opsi pemanis: Less Sugar 50%\n(~13g gula - Masuk batas aman)",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.1882352977991104,
+              "g": 0.4274509847164154,
+              "b": 0.3450980484485626,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Catat Hasil ke Buku Harian",
+        "fontSize": 16,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Atur Ulang Perhitungan",
+        "fontSize": 16,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Beranda",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Kalkulator",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Riwayat",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Profil",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "6. SmartScan & Kamera OCR Gula": {
+    "id": "6:1305",
+    "type": "FRAME",
+    "box": {
+      "x": 2954,
+      "y": 0,
+      "width": 390,
+      "height": 884
+    },
+    "texts": [
+      {
+        "text": "Arahkan kamera ke tabel Informasi Nilai Gizi atau\nkomposisi",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "opacity": 0.949999988079071,
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.9803921580314636,
+              "g": 0.9725490212440491,
+              "b": 1,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Pencahayaan cukup stabil",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "opacity": 0.699999988079071,
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.9803921580314636,
+              "g": 0.9725490212440491,
+              "b": 1,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Takaran Saji: 250ml",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.9803921580314636,
+              "g": 0.9725490212440491,
+              "b": 1,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Terbaca Jelas",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.43529412150382996,
+              "g": 0.9843137264251709,
+              "b": 0.7450980544090271,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Gula Total: 18g",
+        "fontSize": 18,
+        "fontWeight": 800,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Pindai Label Gizi",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "HASIL PINDAI INSTAN",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Minuman Teh Melati\nKotak 250ml",
+        "fontSize": 18,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "18g Gula",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.7058823704719543,
+              "g": 0.32549020648002625,
+              "b": 0.03529411926865578,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "60% Batas Harian Rekomendasi (30g)",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "1 Sajian",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.1882352977991104,
+              "g": 0.4274509847164154,
+              "b": 0.3450980484485626,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Lihat Analisis Lengkap",
+        "fontSize": 14,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Unggah Galeri",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "opacity": 0.8999999761581421,
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.9803921580314636,
+              "g": 0.9725490212440491,
+              "b": 1,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Input Manual",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "opacity": 0.8999999761581421,
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.9803921580314636,
+              "g": 0.9725490212440491,
+              "b": 1,
+              "a": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "9. Riwayat Konsumsi & Produk Terpindai": {
+    "id": "6:1410",
+    "type": "FRAME",
+    "box": {
+      "x": 3376,
+      "y": 0,
+      "width": 390,
+      "height": 1289.5
+    },
+    "texts": [
+      {
+        "text": "Riwayat Konsumsi",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Cari nama produk yang pernah dipindai...",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Hari Ini",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "7 Hari Terakhir",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Bulan Ini",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Pilih Tanggal",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "KATEGORI:",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Semua",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Minuman",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Camilan",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Bumbu & Saus",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Akumulasi 7 Hari",
+        "fontSize": 14,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Sangat Baik ✅",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.04313725605607033,
+              "g": 0.3176470696926117,
+              "b": 0.239215686917305,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "124",
+        "fontSize": 34,
+        "fontWeight": 800,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "gram",
+        "fontSize": 20,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Rata-rata: 17.7g / hari",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Batas: 30g/hari",
+        "fontSize": 12,
+        "fontWeight": 500,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.16862745583057404,
+              "g": 0.4117647111415863,
+              "b": 0.3294117748737335,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Sen\n(16g)",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Sel\n(19g)",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Rab\n(14g)",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Kam\n(22g)",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Jum\n(18.5g)",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Sab\n(18g)",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Min\n(16.5g)",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Hari Ini",
+        "fontSize": 18,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "24 Mei 2024",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Total: 18.5g",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Teh Kemasan Melati",
+        "fontSize": 14,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "250ml • 12:30 WIB",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "14.0 ",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "g",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Sedang",
+        "fontSize": 10,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.572549045085907,
+              "g": 0.250980406999588,
+              "b": 0.054901961237192154,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Yogurt Greek Plain",
+        "fontSize": 14,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "120g • 08:15 WIB",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "4.5 ",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "g",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Rendah",
+        "fontSize": 10,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.04313725605607033,
+              "g": 0.3176470696926117,
+              "b": 0.239215686917305,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Kemarin",
+        "fontSize": 18,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "23 Mei 2024",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Total: 29.5g",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Susu UHT Cokelat",
+        "fontSize": 14,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "200ml • 16:45 WIB",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "18.0 ",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "g",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Tinggi",
+        "fontSize": 10,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.729411780834198,
+              "g": 0.10196078568696976,
+              "b": 0.10196078568696976,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Kopi Susu Aren Sedikit",
+        "fontSize": 14,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Regular • 10:10 WIB",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "8.0 ",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "g",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Sedang",
+        "fontSize": 10,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.572549045085907,
+              "g": 0.250980406999588,
+              "b": 0.054901961237192154,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Keripik Gandum Madu",
+        "fontSize": 14,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "45g • 14:20 WIB",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "3.5 ",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "g",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Rendah",
+        "fontSize": 10,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.04313725605607033,
+              "g": 0.3176470696926117,
+              "b": 0.239215686917305,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Pilihan konsumsi Anda minggu ini ",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "38% lebih",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "rendah gula",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": " dibandingkan rata-rata pengguna",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "seumuran Anda. Pertahankan!",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Beranda",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "SmartScan",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Riwayat",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Profil",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "11. Pengingat & Notifikasi Gula": {
+    "id": "6:1639",
+    "type": "FRAME",
+    "box": {
+      "x": 3798,
+      "y": 0,
+      "width": 390,
+      "height": 1369
+    },
+    "texts": [
+      {
+        "text": "Pengingat & Notifikasi",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "STATUS PENGINGAT CERDAS",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.16862745583057404,
+              "g": 0.4117647111415863,
+              "b": 0.3294117748737335,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "4 Jadwal Aktif",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Sinkron dengan metabolisme harian",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Aktif",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.1882352977991104,
+              "g": 0.4274509847164154,
+              "b": 0.3450980484485626,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Aktivitas & Notifikasi\nTerbaru",
+        "fontSize": 20,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Tandai\nDibaca",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Peringatan Asupan Sore 🔔",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "15 mnt lalu",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Anda telah mengonsumsi 20.5g gula hari ini.\nSisa kuota aman 9.5g untuk makan malam.",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "68% batas harian",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Waktunya Catat Camilan Siang 🍵",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "3 jam lalu",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Jangan lupa pindai label kemasan minuman\nAnda untuk memastikan kadar gula tetap\nterkontrol.",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Pindai Produk Sekarang",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Pencapaian Minggu Ini 🏆",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Kemarin",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Hebat! Anda berhasil 5 hari berturut-turut di\nbawah batas rekomendasi konsumsi gula\nBPOM. Pertahankan!",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Jadwal & Preferensi\nNotifikasi",
+        "fontSize": 20,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Otomatis & Real-\ntime",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Pengingat Makan Siang",
+        "fontSize": 14,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Jadwal otomatis 12:30 WIB",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Pengingat Camilan Sore",
+        "fontSize": 14,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Jadwal otomatis 16:00 WIB",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Peringatan Mendekati Batas\nHarian",
+        "fontSize": 14,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Saat sisa kuota <5g batas aman",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Rangkuman Gula Harian Malam",
+        "fontSize": 14,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Laporan penutup 20:30 WIB",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Kiat Gizi & Berita BPOM Terkini",
+        "fontSize": 14,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Artikel edukasi dan regulasi pangan",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Tambah Jadwal Pengingat Khusus",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Beranda",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "SmartScan",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Riwayat",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Profil",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "10. Dashboard Tren Konsumsi Gula": {
+    "id": "6:1829",
+    "type": "FRAME",
+    "box": {
+      "x": 4220,
+      "y": 0,
+      "width": 390,
+      "height": 1200.75
+    },
+    "texts": [
+      {
+        "text": "SweetLimits",
+        "fontSize": 20,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Tren Asupan Gula",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "fontFamily": "Nimbus Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Analisis pola metabolik &\nevaluasi target",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Mingguan",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.25882354378700256,
+              "b": 0.16862745583057404,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Bulanan",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "RATA-RATA HARIAN",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "22.4",
+        "fontSize": 24,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "g / hari",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Turun 15% 🎉",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.04313725605607033,
+              "g": 0.3176470696926117,
+              "b": 0.239215686917305,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "DISIPLIN BATAS",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "5 ",
+        "fontSize": 24,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "/ 7 Hari",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Berhasil di bawah target\nbatas aman",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Distribusi Mingguan",
+        "fontSize": 18,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "16 Mei - 22 Mei 2024",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Aman",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Lebih",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "40g",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "30g",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "20g",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "10g",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "0g",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Batas Maksimal 30g",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.729411780834198,
+              "g": 0.10196078568696976,
+              "b": 0.10196078568696976,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Sen",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Sel",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Rab",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.729411780834198,
+              "g": 0.10196078568696976,
+              "b": 0.10196078568696976,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Kam",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Jum",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Sab",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Min",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Rabu 22 Mei: 34g (+4g over limit)",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.9333333373069763,
+              "g": 0.9411764740943909,
+              "b": 1,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Wawasan Pola Konsumsi",
+        "fontSize": 18,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Penyumbang Gula Terbesar",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "65% Total",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.729411780834198,
+              "g": 0.10196078568696976,
+              "b": 0.10196078568696976,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Minuman manis kemasan menyumbang\n65% total asupan Anda minggu ini,\nterutama pada jam makan siang.",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Rekomendasi Cerdas",
+        "fontSize": 14,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Potensi -90g",
+        "fontSize": 10,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Mengganti 1 botol teh manis dengan\ninfused water dapat memangkas hingga\n90g gula per minggu tanpa mengurangi\nkesegaran hidrasi Anda.",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.04313725605607033,
+              "g": 0.3176470696926117,
+              "b": 0.239215686917305,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Laporan Tren Lengkap Bulanan",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Tersedia per 1 Juni untuk analisis lab rutin",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Beranda",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "SmartScan",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Riwayat",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Profil",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "12. Profil & Pengaturan SweetLimits": {
+    "id": "6:2034",
+    "type": "FRAME",
+    "box": {
+      "x": 4642,
+      "y": 0,
+      "width": 390,
+      "height": 1697
+    },
+    "texts": [
+      {
+        "text": "Profil Saya",
+        "fontSize": 20,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Budi Santoso",
+        "fontSize": 16,
+        "fontWeight": 400,
+        "fontFamily": "Nimbus Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Anggota Aktif Sejak Maret 2024",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Pola Sehat Rendah Gula 🌱",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Beban Gula\nHarian",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "62%",
+        "fontSize": 18,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Berat Badan",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "64 kg",
+        "fontSize": 18,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Tinggi Badan",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "172 cm",
+        "fontSize": 18,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "TARGET KONSUMSI PERSONAL",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.16862745583057404,
+              "g": 0.4117647111415863,
+              "b": 0.3294117748737335,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Batas Target Harian Berdasarkan\nRekomendasi Medis",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Sesuai\nKemenkes",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.1882352977991104,
+              "g": 0.4274509847164154,
+              "b": 0.3450980484485626,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "30.0",
+        "fontSize": 34,
+        "fontWeight": 800,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "gram / hari",
+        "fontSize": 18,
+        "fontWeight": 600,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "≈ 2.4 sdm",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Ubah Target atau Hitung Ulang",
+        "fontSize": 16,
+        "fontWeight": 500,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "AKUN & KESEHATAN",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Informasi Fisik & Biometrik",
+        "fontSize": 16,
+        "fontWeight": 600,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "BB: 64kg, TB: 172cm (BMI: 21.6 Ideal)",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Riwayat Kondisi Kesehatan",
+        "fontSize": 16,
+        "fontWeight": 600,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Pencegahan Diabetes & Gaya Hidup Aktif",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "PREFERENSI APLIKASI",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Pengaturan Notifikasi & Jadwal",
+        "fontSize": 16,
+        "fontWeight": 600,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Pengingat Cek Gula Pagi & Malam Aktif",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Satuan Takaran",
+        "fontSize": 16,
+        "fontWeight": 600,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Gram / Sendok Teh / Sendok\nMakan",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Gram\n(g)",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "PRIVASI & KEAMANAN",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Keamanan Data Biometrik &\nEnkripsi",
+        "fontSize": 16,
+        "fontWeight": 600,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Enkripsi AES-256 Aktif & FaceID",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Kebijakan Privasi & Ketentuan",
+        "fontSize": 16,
+        "fontWeight": 600,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Kepatuhan UU Perlindungan Data Pribadi",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "DUKUNGAN & INFORMASI",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Pusat Bantuan & FAQ",
+        "fontSize": 16,
+        "fontWeight": 600,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Panduan Regulasi BPOM & Kemenkes RI",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Tentang SweetLimits",
+        "fontSize": 16,
+        "fontWeight": 600,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.07450980693101883,
+              "g": 0.10588235408067703,
+              "b": 0.18039216101169586,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Solusi Nutrisi Sehat & Pengawas\nGula",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Versi\n1.0.4",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Keluar dari Akun",
+        "fontSize": 16,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.729411780834198,
+              "g": 0.10196078568696976,
+              "b": 0.10196078568696976,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Tersinkronisasi otomatis dengan Google Fit",
+        "fontSize": 12,
+        "fontWeight": 400,
+        "fontFamily": "Inter",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.42352941632270813,
+              "g": 0.47843137383461,
+              "b": 0.4431372582912445,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Beranda",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "SmartScan",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Riwayat",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.29019609093666077,
+              "b": 0.25882354378700256,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Profil",
+        "fontSize": 10,
+        "fontWeight": 700,
+        "fontFamily": "Plus Jakarta Sans",
+        "fills": [
+          {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0,
+              "g": 0.42352941632270813,
+              "b": 0.2862745225429535,
+              "a": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
