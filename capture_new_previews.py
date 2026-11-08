@@ -19,6 +19,7 @@ async def run():
         os.makedirs('audit_previews', exist_ok=True)
 
         screens = [
+            'screen-auth',
             'screen-home',
             'screen-limit-settings',
             'screen-product-analysis',

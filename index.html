@@ -216,95 +216,114 @@
                SCREEN 3: MASUK & REGISTRASI (AUTH)
                ========================================== -->
           <section id="screen-auth" class="screen-view">
-            <div class="screen-header">
-              <button class="header-icon-btn" onclick="navigateTo('screen-onboarding')">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
-              </button>
-              <span class="screen-header-brand">SweetLimits</span>
-              <button class="header-icon-btn" onclick="alert('Pusat Bantuan Akun SweetLimits')">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-              </button>
-            </div>
+              <div class="screen-header">
+                <button class="header-icon-btn" onclick="navigateTo('screen-onboarding')" aria-label="Kembali">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+                </button>
+                <span class="screen-header-brand" style="font-family: var(--font-heading); font-size: 20px; font-weight: 800; color: #00A86B;">SweetLimits</span>
+                <button class="header-icon-btn" onclick="alert('Pusat Bantuan Akun SweetLimits')" aria-label="Bantuan">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                </button>
+              </div>
 
-            <div style="margin-bottom: 14px;">
-              <span class="pill-badge pill-success" style="font-size: 10.5px; margin-bottom: 6px;">🌿 Panduan Gula Harian Cerdas</span>
-              <h2 style="font-family: var(--font-heading); font-size: 20px; font-weight: 800; color: var(--text-main);">Selamat Datang Kembali 👋</h2>
-              <p style="font-size: 12px; color: var(--text-muted); margin-top: 3px; line-height: 1.4;">
-                Lanjutkan perjalanan pola hidup sehat rendah gula Anda bersama SweetLimits.
-              </p>
-            </div>
+              <!-- Header Title & Badge -->
+              <div style="margin-bottom: 16px;">
+                <span class="pill-badge pill-success" style="font-size: 11px; font-weight: 700; background: #D1FAE5; color: #065F46; padding: 4px 10px; margin-bottom: 8px; display: inline-flex; align-items: center; gap: 6px;">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                  Panduan Gula Harian Cerdas
+                </span>
+                <h2 style="font-family: var(--font-heading); font-size: 22px; font-weight: 800; color: var(--text-main); margin-top: 4px; letter-spacing: -0.3px;">
+                  Selamat Datang Kembali
+                </h2>
+                <p style="font-size: 12.5px; color: var(--text-muted); margin-top: 4px; line-height: 1.45;">
+                  Lanjutkan perjalanan pola hidup sehat rendah gula Anda bersama SweetLimits.
+                </p>
+              </div>
 
-            <div class="auth-segmented">
-              <button class="auth-tab-btn active" id="tabMasuk" onclick="switchAuthTab('login')">Masuk</button>
-              <button class="auth-tab-btn" id="tabDaftar" onclick="switchAuthTab('register')">Daftar Akun Baru</button>
-            </div>
+              <!-- Segmented Masuk / Daftar -->
+              <div class="auth-segmented">
+                <button type="button" class="auth-tab-btn active" id="tabMasuk" onclick="switchAuthTab('login')">Masuk</button>
+                <button type="button" class="auth-tab-btn" id="tabDaftar" onclick="switchAuthTab('register')">Daftar Akun Baru</button>
+              </div>
 
-            <form onsubmit="handleAuthSubmit(event)">
-              <div class="form-group">
-                <label class="form-label">Email Pengguna</label>
-                <div class="form-input-wrap">
-                  <span class="input-icon-left">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-                  </span>
-                  <input type="email" class="form-input form-input-with-icon" id="authEmail" value="budi.santoso@gmail.com" required>
+              <!-- Login Form -->
+              <form onsubmit="handleAuthSubmit(event)">
+                <div class="form-group" style="margin-bottom: 14px;">
+                  <label class="form-label">Email Pengguna</label>
+                  <div class="form-input-wrap" style="position: relative; display: flex; align-items: center;">
+                    <span style="position: absolute; left: 16px; color: var(--text-muted); pointer-events: none;">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    </span>
+                    <input type="email" class="auth-pill-input" id="authEmail" value="budi.santoso@gmail.com" placeholder="nama@email.com" required>
+                  </div>
+                </div>
+
+                <div class="form-group" style="margin-bottom: 14px;">
+                  <label class="form-label">Kata Sandi</label>
+                  <div class="form-input-wrap" style="position: relative; display: flex; align-items: center;">
+                    <span style="position: absolute; left: 16px; color: var(--text-muted); pointer-events: none;">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                    </span>
+                    <input type="password" class="auth-pill-input" id="authPassword" value="secret1234" required>
+                    <button type="button" style="position: absolute; right: 16px; background: none; border: none; cursor: pointer; color: var(--text-muted);" onclick="togglePasswordVisibility()" aria-label="Tampilkan kata sandi">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                    </button>
+                  </div>
+                </div>
+
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; font-size: 12px;">
+                  <label style="display: flex; align-items: center; gap: 8px; cursor: pointer; color: var(--text-body); font-weight: 500;">
+                    <input type="checkbox" checked style="accent-color: #00A86B; width: 16px; height: 16px;">
+                    <span>Ingat Saya</span>
+                  </label>
+                  <a href="#" style="color: #00A86B; text-decoration: none; font-weight: 700;" onclick="alert('Instruksi reset kata sandi telah dikirim ke email!'); return false;">Lupa Kata Sandi?</a>
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="margin-bottom: 14px; width: 100%; height: 50px; border-radius: 25px; font-size: 15px; font-weight: 700; display: flex; align-items: center; justify-content: center; gap: 8px; box-shadow: 0 4px 14px rgba(0, 168, 107, 0.25);">
+                  <span>Masuk ke SweetLimits</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </button>
+              </form>
+
+              <!-- Divider -->
+              <div style="display: flex; align-items: center; gap: 12px; margin: 12px 0 16px;">
+                <div style="flex: 1; height: 1px; background: #E2E8F0;"></div>
+                <span style="font-size: 11.5px; color: var(--text-muted); font-weight: 500;">atau masuk dengan</span>
+                <div style="flex: 1; height: 1px; background: #E2E8F0;"></div>
+              </div>
+
+              <!-- Social Auth Buttons (Google & Apple ID) -->
+              <div class="social-btns-row">
+                <button type="button" class="social-pill-btn" onclick="handleSocialAuth('google')" aria-label="Masuk dengan Google">
+                  <svg width="18" height="18" viewBox="0 0 24 24"><path fill="#EA4335" d="M12 5c1.6 0 3 .6 4.1 1.7l3.1-3.1C17.3 1.8 14.8 1 12 1 7.5 1 3.7 3.6 1.9 7.3l3.7 2.9C6.5 7.4 9 5 12 5z"/><path fill="#4285F4" d="M23.5 12.3c0-.8-.1-1.6-.2-2.3H12v4.5h6.5c-.3 1.5-1.1 2.8-2.4 3.7l3.7 2.9c2.2-2 3.7-5 3.7-8.8z"/><path fill="#FBBC05" d="M5.6 14.8c-.2-.7-.4-1.5-.4-2.3s.2-1.6.4-2.3L1.9 7.3C.7 9.7 0 12 0 14.5s.7 4.8 1.9 7.2l3.7-2.9z"/><path fill="#34A853" d="M12 24c3.2 0 6-1.1 8-3l-3.7-2.9c-1.1.7-2.5 1.2-4.3 1.2-3 0-5.5-2.4-6.4-5.2L1.9 17C3.7 20.7 7.5 24 12 24z"/></svg>
+                  <span>Google</span>
+                </button>
+                <button type="button" class="social-pill-btn" onclick="handleSocialAuth('apple')" aria-label="Masuk dengan Apple ID">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="#000000"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.84c.65-.79 1.09-1.89.97-2.99-.95.04-2.1.63-2.77 1.42-.59.68-1.11 1.8-1 2.87 1.06.08 2.15-.54 2.8-1.3"/></svg>
+                  <span>Apple ID</span>
+                </button>
+              </div>
+
+              <!-- Standards Compliance Note -->
+              <div class="auth-security-box">
+                <div style="width: 36px; height: 36px; border-radius: 50%; background: #D1FAE5; display: flex; align-items: center; justify-content: center; color: #00A86B; flex-shrink: 0;">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <div style="font-size: 11.5px; color: var(--text-body); line-height: 1.4;">
+                  <strong style="color: var(--text-main); display: block; font-size: 12px;">Pemberitahuan Gula Terstandarisasi</strong>
+                  Sinkronisasi data nutrisi instan dengan akurasi klinis Kemenkes RI.
                 </div>
               </div>
 
-              <div class="form-group">
-                <label class="form-label">Kata Sandi</label>
-                <div class="form-input-wrap">
-                  <span class="input-icon-left">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-                  </span>
-                  <input type="password" class="form-input form-input-with-icon" id="authPassword" value="secret1234" required>
-                  <button type="button" class="input-icon-right" onclick="togglePasswordVisibility()">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
-                  </button>
+              <!-- Medical Encryption Footer -->
+              <div style="font-size: 10.5px; color: var(--text-muted); text-align: center; margin-top: 10px; line-height: 1.45;">
+                <div style="display: flex; align-items: center; justify-content: center; gap: 5px; font-weight: 700; color: #64748B; letter-spacing: 0.5px; margin-bottom: 2px;">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                  <span>ENKRIPSI MEDIS 256-BIT</span>
                 </div>
+                Data konsumsi dan profil metabolisme Anda tersimpan aman dan tidak pernah dibagikan kepada pihak ketiga.
               </div>
-
-              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; font-size: 11.5px;">
-                <label style="display: flex; align-items: center; gap: 6px; cursor: pointer;">
-                  <input type="checkbox" checked style="accent-color: var(--primary);">
-                  <span>Ingat Saya</span>
-                </label>
-                <a href="#" style="color: var(--primary); text-decoration: none; font-weight: 600;" onclick="alert('Instruksi reset kata sandi telah dikirim ke email!'); return false;">Lupa Kata Sandi?</a>
-              </div>
-
-              <button type="submit" class="btn-primary" style="margin-bottom: 12px;">
-                Masuk ke SweetLimits →
-              </button>
-            </form>
-
-            <div style="text-align: center; font-size: 11px; color: var(--text-light); margin: 12px 0;">
-              atau masuk dengan
-            </div>
-
-            <div class="social-btns-row">
-              <button class="social-pill-btn" onclick="navigateTo('screen-limit-settings')">
-                <svg width="16" height="16" viewBox="0 0 24 24"><path fill="#EA4335" d="M12 5c1.6 0 3 .6 4.1 1.7l3.1-3.1C17.3 1.8 14.8 1 12 1 7.5 1 3.7 3.6 1.9 7.3l3.7 2.9C6.5 7.4 9 5 12 5z"/><path fill="#4285F4" d="M23.5 12.3c0-.8-.1-1.6-.2-2.3H12v4.5h6.5c-.3 1.5-1.1 2.8-2.4 3.7l3.7 2.9c2.2-2 3.7-5 3.7-8.8z"/><path fill="#FBBC05" d="M5.6 14.8c-.2-.7-.4-1.5-.4-2.3s.2-1.6.4-2.3L1.9 7.3C.7 9.7 0 12 0 14.5s.7 4.8 1.9 7.2l3.7-2.9z"/><path fill="#34A853" d="M12 24c3.2 0 6-1.1 8-3l-3.7-2.9c-1.1.7-2.5 1.2-4.3 1.2-3 0-5.5-2.4-6.4-5.2L1.9 17C3.7 20.7 7.5 24 12 24z"/></svg>
-                Google
-              </button>
-              <button class="social-pill-btn" onclick="navigateTo('screen-limit-settings')">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.84c.65-.79 1.09-1.89.97-2.99-.95.04-2.1.63-2.77 1.42-.59.68-1.11 1.8-1 2.87 1.06.08 2.15-.54 2.8-1.3"/></svg>
-                Apple ID
-              </button>
-            </div>
-
-            <div class="auth-security-box">
-              <div style="width: 32px; height: 32px; border-radius: 50%; background: #D1FAE5; display: flex; align-items: center; justify-content: center; color: var(--primary); flex-shrink: 0;">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-              </div>
-              <div style="font-size: 11px; color: var(--text-body); line-height: 1.35;">
-                <strong style="color: var(--text-main); display: block;">Pemberitahuan Gula Terstandarisasi</strong>
-                Sinkronisasi data nutrisi instan dengan akurasi klinis Kemenkes RI.
-              </div>
-            </div>
-
-            <div style="font-size: 10px; color: var(--text-muted); text-align: center; margin-top: 8px;">
-              🔒 ENKRIPSI MEDIS 256-BIT<br>Data konsumsi dan profil metabolisme Anda tersimpan privat.
-            </div>
-          </section>
+            </section>
 
 
           <!-- ==========================================
@@ -312,7 +331,7 @@
                ========================================== -->
           <section id="screen-limit-settings" class="screen-view screen-immersive">
               <div class="screen-header">
-                <button class="header-icon-btn" onclick="navigateTo('screen-auth')" aria-label="Kembali">
+                <button class="header-icon-btn" onclick="navigateBackFromLimitSettings()" aria-label="Kembali">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
                 </button>
                 <div class="screen-header-center">Atur Profil & Target</div>
@@ -624,7 +643,7 @@
                 ✕
               </button>
               <div class="ocr-tag-capsule" style="background: rgba(0,0,0,0.6); color: white; border: 1px solid rgba(255,255,255,0.2);">
-                📷 Pindai Label Gizi
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:inline-block; vertical-align:middle; margin-right:4px;"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg> Pindai Label Gizi
               </div>
               <button class="header-icon-btn" style="background: rgba(0,0,0,0.5); color: white; border: none;" onclick="toggleFlashlight()">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
@@ -665,7 +684,7 @@
               </div>
 
               <div style="font-size: 10.5px; color: #CBD5E1; text-align: center; z-index: 20;">
-                🔅 Pencahayaan cukup stabil
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" style="display:inline-block; vertical-align:middle; margin-right:4px;"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg> Pencahayaan cukup stabil
               </div>
             </div>
 
@@ -674,7 +693,7 @@
               <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
                 <div style="display: flex; align-items: center; gap: 8px;">
                   <div style="width: 34px; height: 34px; border-radius: 50%; background: #E8FAF4; display: flex; align-items: center; justify-content: center; color: var(--primary);">
-                    🥤
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#00A86B" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/></svg>
                   </div>
                   <div>
                     <span style="font-size: 9.5px; font-weight: 800; color: var(--primary-dark); text-transform: uppercase;">HASIL PINDAI INSTAN •</span>
@@ -698,7 +717,7 @@
             <div style="display: flex; justify-content: space-around; align-items: center; margin-top: 14px;">
               <button style="background: none; border: none; color: white; display: flex; flex-direction: column; align-items: center; gap: 4px; font-size: 10.5px; cursor: pointer;" onclick="triggerScanSimulation()">
                 <div style="width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.2); display: flex; align-items: center; justify-content: center;">
-                  🖼️
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
                 </div>
                 Unggah Galeri
               </button>
@@ -709,7 +728,7 @@
 
               <button style="background: none; border: none; color: white; display: flex; flex-direction: column; align-items: center; gap: 4px; font-size: 10.5px; cursor: pointer;" onclick="openManualLogModal()">
                 <div style="width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.2); display: flex; align-items: center; justify-content: center;">
-                  ✏️
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
                 </div>
                 Input Manual
               </button>
@@ -1281,7 +1300,7 @@
             <!-- Recent Notifications List -->
             <div style="margin-bottom: 12px;">
               <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                <span class="section-title">🔔 Aktivitas & Notifikasi Terbaru</span>
+                <span class="section-title"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:inline-block; vertical-align:middle; margin-right:4px;"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg> Aktivitas & Notifikasi Terbaru</span>
                 <a style="font-size: 11px; color: var(--primary); font-weight: 600; cursor: pointer;" onclick="markAllNotificationsRead()">Tandai Dibaca</a>
               </div>
               <div id="notificationsListContainer">
@@ -1292,7 +1311,7 @@
             <!-- Schedule Toggles -->
             <div class="card-clean" style="margin-bottom: 12px;">
               <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                <span style="font-size: 12.5px; font-weight: 700;">⚙ Jadwal & Preferensi Notifikasi</span>
+                <span style="font-size: 12.5px; font-weight: 700;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:inline-block; vertical-align:middle; margin-right:4px;"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg> Jadwal & Preferensi Notifikasi</span>
                 <span class="pill-badge pill-neutral" style="font-size: 9.5px;">Otomatis & Real-time</span>
               </div>
 
@@ -1334,7 +1353,7 @@
                   <h3 style="font-family: var(--font-heading); font-size: 18px; font-weight: 800; color: #0F172A; margin-bottom: 2px;">Budi Santoso</h3>
                   <div style="font-size: 12px; color: #64748B; margin-bottom: 6px;">Anggota Aktif Sejak Maret 2024</div>
                   <span class="pill-badge" style="background: #E8FAF4; color: #00A86B; font-size: 10.5px; font-weight: 700; padding: 2px 8px; border-radius: 12px;">
-                    • Pola Sehat Rendah Gula 🌿
+                    • Pola Sehat Rendah Gula <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#00A86B" stroke-width="2" style="display:inline-block; vertical-align:middle;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
                   </span>
                 </div>
               </div>
@@ -1574,7 +1593,7 @@
       <div class="figma-split-grid">
         <div>
           <div style="font-size: 11px; font-weight: 700; color: var(--primary-dark); margin-bottom: 6px;">
-            🖼️ Gambar Desain Figma Asli:
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg> Gambar Desain Figma Asli:
           </div>
           <div class="figma-img-wrapper">
             <img id="figmaComparisonImg" src="assets/screens/home.png" alt="Figma Reference">
@@ -1582,7 +1601,7 @@
         </div>
         <div>
           <div style="font-size: 11px; font-weight: 700; color: var(--primary-dark); margin-bottom: 6px;">
-            ⚡ Catatan Kesesuaian Desain:
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00A86B" stroke-width="2" style="display:inline-block; vertical-align:middle; margin-right:4px;"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Catatan Kesesuaian Desain:
           </div>
           <div class="card-clean" style="font-size: 12px; line-height: 1.5;">
             <ul style="padding-left: 18px; margin-bottom: 10px;">

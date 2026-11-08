@@ -62,6 +62,7 @@ function getNotifSvgIcon(title, tag) {
 // App State (merged with localStorage if available)
 let appState = {
   activeScreen: "screen-home",
+  previousScreen: null,
   user: { ...window.SWEET_LIMIT_DATA.user },
   todayStats: { ...window.SWEET_LIMIT_DATA.todayStats },
   historyItems: [ ...window.SWEET_LIMIT_DATA.historyItems ],
@@ -188,9 +189,33 @@ function togglePasswordVisibility() {
   }
 }
 
+
+function navigateBackFromLimitSettings() {
+  if (appState.previousScreen && !['screen-auth', 'screen-splash', 'screen-onboarding'].includes(appState.previousScreen)) {
+    navigateTo(appState.previousScreen);
+  } else {
+    navigateTo('screen-home');
+  }
+}
+
+function savePersonalLimitAndGoHome() {
+  const limit = appState.user.calculatedLimit || 30.0;
+  appState.user.dailyTarget = limit;
+  appState.todayStats.target = limit;
+  renderHomeDashboard();
+  navigateTo('screen-home');
+}
+
+function handleSocialAuth(provider) {
+  // Direct authentication into Home dashboard
+  renderHomeDashboard();
+  navigateTo('screen-home');
+}
+
 function handleAuthSubmit(e) {
   e.preventDefault();
-  navigateTo('screen-limit-settings');
+  renderHomeDashboard();
+  navigateTo('screen-home');
 }
 
 function handleLogout() {
