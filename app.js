@@ -118,7 +118,7 @@ function navigateTo(screenId) {
     if (screenId === 'screen-notifications') renderNotificationsScreen();
     if (screenId === 'screen-profile') renderProfileScreen();
     if (screenId === 'screen-calculator') updateCalculatorSimulation();
-    if (screenId === 'screen-limit-settings') calculatePersonalLimit();
+    if (screenId === 'screen-limit-settings') syncLimitSettingsUI();
   }
 }
 
@@ -202,7 +202,19 @@ function savePersonalLimitAndGoHome() {
   const limit = appState.user.calculatedLimit || 30.0;
   appState.user.dailyTarget = limit;
   appState.todayStats.target = limit;
+
+  // Sync health focus title tag
+  const focus = appState.user.healthFocus || 'diabetes_prevention';
+  const focusTitles = {
+    'diabetes_prevention': 'Pencegahan Diabetes',
+    'pradiabetes': 'Target Khusus Pradiabetes',
+    'low_calorie': 'Diet Rendah Kalori',
+    'general_fitness': 'Umum & Kebugaran'
+  };
+  appState.user.title = focusTitles[focus] || 'Pola Sehat Rendah Gula';
+
   renderHomeDashboard();
+  renderProfileScreen();
   navigateTo('screen-home');
 }
 
@@ -253,6 +265,36 @@ function selectActivity(level) {
   calculatePersonalLimit();
 }
 
+function selectHealthFocus(focusId) {
+  appState.user.healthFocus = focusId;
+  const focuses = ['diabetes_prevention', 'pradiabetes', 'low_calorie', 'general_fitness'];
+  focuses.forEach(f => {
+    const el = document.getElementById(`focus-${f}`);
+    if (el) {
+      if (f === focusId) {
+        el.classList.add('active');
+      } else {
+        el.classList.remove('active');
+      }
+    }
+  });
+  calculatePersonalLimit();
+}
+
+function syncLimitSettingsUI() {
+  const user = appState.user;
+  const ageEl = document.getElementById('inputAge');
+  if (ageEl && user.age) ageEl.value = user.age;
+  const weightEl = document.getElementById('inputWeight');
+  if (weightEl && user.weight) weightEl.value = user.weight;
+  const heightEl = document.getElementById('inputHeight');
+  if (heightEl && user.height) heightEl.value = user.height;
+
+  selectGender(user.gender || 'pria');
+  selectActivity(user.activityLevel || 'sedang');
+  selectHealthFocus(user.healthFocus || 'diabetes_prevention');
+}
+
 function calculatePersonalLimit() {
   const age = parseFloat(document.getElementById('inputAge')?.value) || 28;
   const weight = parseFloat(document.getElementById('inputWeight')?.value) || 64;
@@ -273,22 +315,35 @@ function calculatePersonalLimit() {
   }
 
   // Sugar Calculation based on Kemenkes / WHO
-  // Guideline: Max 10% of total daily calorie expenditure, ideally 5% (approx 25g - 35g for normal adult)
   let baseLimit = 30.0;
   if (appState.user.gender === 'wanita') baseLimit -= 2.0;
   if (appState.user.activityLevel === 'aktif') baseLimit += 4.0;
   if (appState.user.activityLevel === 'sedentari') baseLimit -= 3.0;
   if (bmi >= 25) baseLimit -= 3.0;
 
-  baseLimit = Math.max(22.0, Math.min(45.0, baseLimit));
+  // Health focus adjustment
+  const focus = appState.user.healthFocus || 'diabetes_prevention';
+  if (focus === 'pradiabetes') {
+    baseLimit -= 5.0; // Stricter threshold for prediabetes
+  } else if (focus === 'low_calorie') {
+    baseLimit -= 4.0; // Lower target for low calorie diet
+  } else if (focus === 'general_fitness') {
+    baseLimit += 2.0; // General fitness & active lifestyle
+  }
+
+  baseLimit = Math.max(18.0, Math.min(45.0, baseLimit));
 
   const numEl = document.getElementById('suggestedLimitNum');
+  const personalLimitDisplay = document.getElementById('personalLimitDisplay');
   const spoonsEl = document.getElementById('suggestedSpoons');
+  const personalLimitSpoons = document.getElementById('personalLimitSpoons');
+
   if (numEl) numEl.innerText = baseLimit.toFixed(1);
-  if (spoonsEl) {
-    const spoons = (baseLimit / 12).toFixed(1);
-    spoonsEl.innerText = `~${spoons} sendok makan gula pasir`;
-  }
+  if (personalLimitDisplay) personalLimitDisplay.innerText = baseLimit.toFixed(1);
+
+  const spoons = (baseLimit / 12).toFixed(1);
+  if (spoonsEl) spoonsEl.innerText = `~${spoons} sendok makan gula pasir`;
+  if (personalLimitSpoons) personalLimitSpoons.innerText = `~${spoons} sdm gula`;
 
   appState.user.calculatedLimit = baseLimit;
 }
@@ -815,6 +870,11 @@ function renderProfileScreen() {
   const unitBadge = document.getElementById('profileUnitBadge');
   if (unitBadge) {
     unitBadge.innerText = appState.user.unit === 'g' ? 'Gram (g)' : (appState.user.unit === 'sdt' ? 'Sendok Teh (sdt)' : 'Sendok Makan (sdm)');
+  }
+
+  const tagEl = document.getElementById('profileHealthTagText');
+  if (tagEl && appState.user.title) {
+    tagEl.innerText = appState.user.title;
   }
 }
 

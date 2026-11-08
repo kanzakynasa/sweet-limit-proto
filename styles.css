@@ -1963,3 +1963,49 @@ button:not(:disabled):active,
     scroll-behavior: auto !important;
   }
 }
+
+/* Health Focus Interactive Pills (Figma Exact) */
+.health-focus-pill {
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-family: var(--font-heading);
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid transparent;
+  background: #EEF2FF;
+  color: #1E293B;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+  user-select: none;
+  outline: none;
+}
+
+.health-focus-pill:hover {
+  background: #E0E7FF;
+  transform: translateY(-1px);
+}
+
+.health-focus-pill:active {
+  transform: scale(0.96);
+}
+
+.health-focus-pill.active {
+  background: #005E38;
+  color: #FFFFFF;
+  box-shadow: 0 4px 12px rgba(0, 94, 56, 0.22);
+}
+
+.health-focus-pill .focus-check-icon {
+  display: none;
+  width: 13px;
+  height: 13px;
+  stroke: #FFFFFF;
+  stroke-width: 2.8;
+}
+
+.health-focus-pill.active .focus-check-icon {
+  display: inline-block;
+}

@@ -392,14 +392,23 @@
               <!-- Health Focus -->
               <div class="card-clean" style="margin-bottom: 12px;">
                 <label class="form-label" style="margin-bottom: 8px;">Kondisi atau Fokus Kesehatan</label>
-                <div style="display: flex; gap: 8px; flex-wrap: wrap;">
-                  <button type="button" class="pill-badge pill-success" style="cursor: pointer; background: var(--primary-deep); color: white; border: none; padding: 6px 14px; font-weight: 600; display: inline-flex; align-items: center; gap: 6px;">
-                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                    Pencegahan Diabetes
+                <div style="display: flex; gap: 8px; flex-wrap: wrap;" id="healthFocusContainer">
+                  <button type="button" class="health-focus-pill active" id="focus-diabetes_prevention" onclick="selectHealthFocus('diabetes_prevention')">
+                    <svg class="focus-check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Pencegahan Diabetes</span>
                   </button>
-                  <button type="button" class="pill-badge pill-neutral" style="cursor: pointer; padding: 6px 14px; font-weight: 500;">Pradiabetes</button>
-                  <button type="button" class="pill-badge pill-neutral" style="cursor: pointer; padding: 6px 14px; font-weight: 500;">Diet Rendah Kalori</button>
-                  <button type="button" class="pill-badge pill-neutral" style="cursor: pointer; padding: 6px 14px; font-weight: 500;">Umum & Kebugaran</button>
+                  <button type="button" class="health-focus-pill" id="focus-pradiabetes" onclick="selectHealthFocus('pradiabetes')">
+                    <svg class="focus-check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Pradiabetes</span>
+                  </button>
+                  <button type="button" class="health-focus-pill" id="focus-low_calorie" onclick="selectHealthFocus('low_calorie')">
+                    <svg class="focus-check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Diet Rendah Kalori</span>
+                  </button>
+                  <button type="button" class="health-focus-pill" id="focus-general_fitness" onclick="selectHealthFocus('general_fitness')">
+                    <svg class="focus-check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><polyline points="20 6 9 17 4 12"/></svg>
+                    <span>Umum & Kebugaran</span>
+                  </button>
                 </div>
               </div>
 
@@ -1298,7 +1307,7 @@
                   <h3 style="font-family: var(--font-heading); font-size: 19px; font-weight: 800; color: #0F172A; margin-bottom: 2px;">Budi Santoso</h3>
                   <div style="font-size: 12px; color: #64748B; margin-bottom: 6px;">Anggota Aktif Sejak Maret 2024</div>
                   <span class="pill-badge" style="background: #E8FAF4; color: #00A86B; font-size: 11px; font-weight: 700; padding: 4px 10px; border-radius: 12px; display: inline-flex; align-items: center; gap: 5px;">
-                    <span style="width: 6px; height: 6px; background: #00A86B; border-radius: 50%;"></span> Pola Sehat Rendah Gula
+                    <span style="width: 6px; height: 6px; background: #00A86B; border-radius: 50%;"></span> <span id="profileHealthTagText">Pola Sehat Rendah Gula</span>
                     <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#00A86B" stroke-width="2.2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
                   </span>
                 </div>
