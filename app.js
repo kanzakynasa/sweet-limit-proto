@@ -62,6 +62,7 @@ function getNotifSvgIcon(title, tag) {
 // App State (merged with localStorage if available)
 let appState = {
   activeScreen: "screen-home",
+  previousScreen: null,
   user: { ...window.SWEET_LIMIT_DATA.user },
   todayStats: { ...window.SWEET_LIMIT_DATA.todayStats },
   historyItems: [ ...window.SWEET_LIMIT_DATA.historyItems ],
@@ -99,7 +100,7 @@ function navigateTo(screenId) {
 
     // Manage bottom navigation bar visibility
     const bottomNav = document.getElementById('bottomNav');
-    const immersiveScreens = ['screen-splash', 'screen-onboarding', 'screen-auth', 'screen-smartscan'];
+    const immersiveScreens = ['screen-splash', 'screen-onboarding', 'screen-auth', 'screen-limit-settings', 'screen-smartscan', 'screen-product-analysis'];
     if (bottomNav) {
       if (immersiveScreens.includes(screenId)) {
         bottomNav.style.display = 'none';
@@ -188,9 +189,33 @@ function togglePasswordVisibility() {
   }
 }
 
+
+function navigateBackFromLimitSettings() {
+  if (appState.previousScreen && !['screen-auth', 'screen-splash', 'screen-onboarding'].includes(appState.previousScreen)) {
+    navigateTo(appState.previousScreen);
+  } else {
+    navigateTo('screen-home');
+  }
+}
+
+function savePersonalLimitAndGoHome() {
+  const limit = appState.user.calculatedLimit || 30.0;
+  appState.user.dailyTarget = limit;
+  appState.todayStats.target = limit;
+  renderHomeDashboard();
+  navigateTo('screen-home');
+}
+
+function handleSocialAuth(provider) {
+  // Direct authentication into Home dashboard
+  renderHomeDashboard();
+  navigateTo('screen-home');
+}
+
 function handleAuthSubmit(e) {
   e.preventDefault();
-  navigateTo('screen-limit-settings');
+  renderHomeDashboard();
+  navigateTo('screen-home');
 }
 
 function handleLogout() {
@@ -528,7 +553,7 @@ function updateCalculatorSimulation() {
   if (sugarNum) sugarNum.innerHTML = `${totalSugar} <span style="font-size: 18px;">gram</span>`;
 
   const spoonEq = document.getElementById('calcSpoonEquivalent');
-  if (spoonEq) spoonEq.innerText = `Setara ±${spoons} sendok teh gula pasir`;
+  if (spoonEq) spoonEq.innerText = `Setara ~${spoons} sendok teh gula pasir`;
 
   // Warning thresholds
   const remainingQuota = Math.max(0, appState.todayStats.target - appState.todayStats.consumed);
@@ -545,7 +570,7 @@ function updateCalculatorSimulation() {
       container.style.background = '#FFF5F5';
     }
     if (pill) {
-      pill.innerText = "OVER LIMIT ⚠️";
+      pill.innerText = "OVER LIMIT";
       pill.className = "pill-badge pill-danger";
     }
     if (msg) {
@@ -557,7 +582,7 @@ function updateCalculatorSimulation() {
       container.style.background = '#F0FDF4';
     }
     if (pill) {
-      pill.innerText = "DALAM BATAS SEHAT ✅";
+      pill.innerText = "DALAM BATAS SEHAT";
       pill.className = "pill-badge pill-success";
     }
     if (msg) {
@@ -733,7 +758,7 @@ function renderNotificationsScreen() {
             </div>
             <span style="font-size: 10px; color: var(--text-muted);">${n.time}</span>
           </div>
-          <p style="font-size: 11.5px; color: var(--text-body); line-height: 1.4; margin-bottom: 6px;">${n.desc}</p>
+          <p style="font-size: 11.5px; color: var(--text-body); line-height: 1.4; margin-bottom: 6px;">${n.body || n.desc || ""}</p>
           <div style="display: flex; justify-content: space-between; align-items: center; font-size: 10.5px;">
             <span class="pill-badge pill-neutral" style="font-size: 9.5px; padding: 1px 7px;">${n.tag}</span>
             <span style="color: var(--primary); font-weight: 600; cursor: pointer;" onclick="alert('Notifikasi ditandai sudah dibaca')">Tandai Dibaca</span>

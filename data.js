@@ -237,7 +237,7 @@ const INITIAL_DATA = {
   notifications: [
     {
       id: "notif-1",
-      title: "Peringatan Asupan Sore 🔔",
+      title: "Peringatan Asupan Sore",
       time: "15 mnt lalu",
       read: false,
       tag: "68% batas harian",
@@ -248,7 +248,7 @@ const INITIAL_DATA = {
     },
     {
       id: "notif-2",
-      title: "Waktunya Catat Camilan Siang 🍵",
+      title: "Waktunya Catat Camilan Siang",
       time: "3 jam lalu",
       read: false,
       tag: "Pengingat Rutin",
@@ -259,7 +259,7 @@ const INITIAL_DATA = {
     },
     {
       id: "notif-3",
-      title: "Pencapaian Minggu Ini 🏆",
+      title: "Pencapaian Minggu Ini",
       time: "Kemarin",
       read: true,
       tag: "Disiplin Sehat",
