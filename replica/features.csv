@@ -1,0 +1,28 @@
+feature,area,priority,original,clone,notes
+Splash screen with brand & Kemenkes 50g guideline,onboarding,must,yes,yes,S01
+Onboarding tutorial for SmartScan OCR BPOM,onboarding,must,yes,yes,S02
+User authentication (login and register toggle),auth,must,yes,yes,S03
+Personal limit calculator from biometrics (BB TB Age IMT),limit settings,must,yes,yes,S04
+Circular donut gauge for real-time daily sugar quota,dashboard,must,yes,yes,S05
+Single unified profile avatar in header,header,must,yes,yes,S05
+Educational diabetes insights & hidden sugar warnings,dashboard,must,yes,yes,S05 replacing quick actions
+Recent consumption list with authentic Figma icons,dashboard,must,yes,yes,S05
+5-item floating bottom dock (Home Log Scan Safe History),navigation,must,yes,yes,Permanent floating dock
+Center elevated circular SmartScan trigger,navigation,must,yes,yes,Ergonomic thumb zone
+SmartScan camera viewfinder with animated OCR laser,scanner,must,yes,yes,S06
+BPOM sample selector for instant OCR simulation,scanner,must,yes,yes,S06
+Product nutritional breakdown (sucrose glucose sodium),product analysis,must,yes,yes,S07
+Spoon equivalent calculation (1 sdm ~ 12g sugar),product analysis,must,yes,yes,S07
+Healthier zero/low sugar product recommendations,product analysis,must,yes,yes,S07 benchmark from Yuka
+Manual sugar intake logging modal,logging,must,yes,yes,Accessible from dock
+Consumption history with time tabs (Today 7-Day Month),history,must,yes,yes,S09
+Category filtering (Minuman Camilan Bumbu),history,must,yes,yes,S09
+7-day cumulative intake bar chart with over-limit highlight,history,must,yes,yes,S09
+Weekly & monthly sugar intake trend analytics,trends,should,yes,yes,S10
+Scheduled intake reminders (morning log & evening check),notifications,should,yes,yes,S11
+Add custom reminder modal,notifications,should,yes,yes,S11
+User profile with physical biometrics summary,profile,must,yes,yes,S12
+Measurement unit toggle (Gram / sdt / sdm),profile,should,yes,yes,S12
+Real-time Bluetooth Continuous Glucose Monitor (CGM) sync,integrations,could,yes,skip,Hardware sensor out of prototype scope
+Direct insulin medical dosing prescription,medical,could,yes,skip,Regulated healthcare domain out of scope
+Global 3M+ barcode database cloud sync,database,could,yes,skip,Curated Indonesian BPOM food catalog used instead
