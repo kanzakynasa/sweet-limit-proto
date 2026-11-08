@@ -758,7 +758,7 @@ function renderNotificationsScreen() {
             </div>
             <span style="font-size: 10px; color: var(--text-muted);">${n.time}</span>
           </div>
-          <p style="font-size: 11.5px; color: var(--text-body); line-height: 1.4; margin-bottom: 6px;">${n.desc}</p>
+          <p style="font-size: 11.5px; color: var(--text-body); line-height: 1.4; margin-bottom: 6px;">${n.body || n.desc || ""}</p>
           <div style="display: flex; justify-content: space-between; align-items: center; font-size: 10.5px;">
             <span class="pill-badge pill-neutral" style="font-size: 9.5px; padding: 1px 7px;">${n.tag}</span>
             <span style="color: var(--primary); font-weight: 600; cursor: pointer;" onclick="alert('Notifikasi ditandai sudah dibaca')">Tandai Dibaca</span>
