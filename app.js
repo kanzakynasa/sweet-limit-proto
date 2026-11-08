@@ -99,7 +99,7 @@ function navigateTo(screenId) {
 
     // Manage bottom navigation bar visibility
     const bottomNav = document.getElementById('bottomNav');
-    const immersiveScreens = ['screen-splash', 'screen-onboarding', 'screen-auth', 'screen-smartscan'];
+    const immersiveScreens = ['screen-splash', 'screen-onboarding', 'screen-auth', 'screen-limit-settings', 'screen-smartscan', 'screen-product-analysis'];
     if (bottomNav) {
       if (immersiveScreens.includes(screenId)) {
         bottomNav.style.display = 'none';
@@ -528,7 +528,7 @@ function updateCalculatorSimulation() {
   if (sugarNum) sugarNum.innerHTML = `${totalSugar} <span style="font-size: 18px;">gram</span>`;
 
   const spoonEq = document.getElementById('calcSpoonEquivalent');
-  if (spoonEq) spoonEq.innerText = `Setara ±${spoons} sendok teh gula pasir`;
+  if (spoonEq) spoonEq.innerText = `Setara ~${spoons} sendok teh gula pasir`;
 
   // Warning thresholds
   const remainingQuota = Math.max(0, appState.todayStats.target - appState.todayStats.consumed);
@@ -545,7 +545,7 @@ function updateCalculatorSimulation() {
       container.style.background = '#FFF5F5';
     }
     if (pill) {
-      pill.innerText = "OVER LIMIT ⚠️";
+      pill.innerText = "OVER LIMIT";
       pill.className = "pill-badge pill-danger";
     }
     if (msg) {
@@ -557,7 +557,7 @@ function updateCalculatorSimulation() {
       container.style.background = '#F0FDF4';
     }
     if (pill) {
-      pill.innerText = "DALAM BATAS SEHAT ✅";
+      pill.innerText = "DALAM BATAS SEHAT";
       pill.className = "pill-badge pill-success";
     }
     if (msg) {

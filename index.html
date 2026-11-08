@@ -310,144 +310,189 @@
           <!-- ==========================================
                SCREEN 4: PERSONAL SUGAR LIMIT SETUP
                ========================================== -->
-          <section id="screen-limit-settings" class="screen-view">
-            <div class="screen-header">
-              <button class="header-icon-btn" onclick="navigateTo('screen-auth')">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
-              </button>
-              <div class="screen-header-center">Atur Profil & Target</div>
-              <button class="header-icon-btn" onclick="alert('Panduan algoritme personalisasi batas konsumsi gula')">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
-              </button>
-            </div>
-
-            <div class="card-clean" style="margin-bottom: 10px;">
-              <div style="display: flex; justify-content: space-between; align-items: center;">
-                <span style="font-size: 11px; font-weight: 700; color: var(--primary);">LANGKAH 1 DARI 2</span>
-                <span style="font-size: 11px; color: var(--text-muted); font-weight: 600;">50% Selesai</span>
+          <section id="screen-limit-settings" class="screen-view screen-immersive">
+              <div class="screen-header">
+                <button class="header-icon-btn" onclick="navigateTo('screen-auth')" aria-label="Kembali">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+                </button>
+                <div class="screen-header-center">Atur Profil & Target</div>
+                <button class="header-icon-btn" onclick="alert('Panduan algoritme personalisasi batas konsumsi gula WHO & Kemenkes RI')" aria-label="Bantuan">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                </button>
               </div>
-              <h3 style="font-family: var(--font-heading); font-size: 16px; font-weight: 800; margin: 4px 0 2px;">Personalisasi Batas Gula Anda</h3>
-              <p style="font-size: 11px; color: var(--text-muted); line-height: 1.4;">
-                Bantu algoritme kami menghitung batas konsumsi gula harian yang aman sesuai metabolisme dan profil biologis Anda.
-              </p>
-              <div class="progress-dual-track">
-                <div class="progress-dual-fill"></div>
-              </div>
-            </div>
 
-            <div class="card-clean" style="margin-bottom: 10px;">
-              <div class="form-group">
-                <label class="form-label">Usia (Tahun)</label>
-                <div class="form-input-wrap">
-                  <input type="number" class="form-input" id="inputAge" value="28" oninput="calculatePersonalLimit()">
-                  <span style="position: absolute; right: 16px; font-size: 12px; color: var(--text-muted);">tahun</span>
+              <!-- Step Progress Card -->
+              <div class="card-clean" style="margin-bottom: 12px;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                  <span style="font-size: 11px; font-weight: 700; color: var(--primary); letter-spacing: 0.5px;">LANGKAH 1 DARI 2</span>
+                  <span style="font-size: 11px; color: var(--text-muted); font-weight: 600;">50% Selesai</span>
+                </div>
+                <h3 style="font-family: var(--font-heading); font-size: 17px; font-weight: 800; margin: 4px 0 4px; color: var(--text-main);">Personalisasi Batas Gula Anda</h3>
+                <p style="font-size: 11.5px; color: var(--text-muted); line-height: 1.45; margin-bottom: 12px;">
+                  Bantu algoritme kami menghitung batas konsumsi gula harian yang aman sesuai metabolisme dan profil biologis Anda.
+                </p>
+                <div class="progress-dual-track" style="height: 6px; background: #EEF2FF; border-radius: 4px; overflow: hidden;">
+                  <div class="progress-dual-fill" style="width: 50%; height: 100%; background: var(--primary); border-radius: 4px;"></div>
                 </div>
               </div>
 
-              <div class="form-group">
-                <label class="form-label">Jenis Kelamin</label>
-                <div class="gender-pills-row">
-                  <button type="button" class="gender-pill-btn active" id="btnGenderMale" onclick="selectGender('pria')">♂ Pria</button>
-                  <button type="button" class="gender-pill-btn" id="btnGenderFemale" onclick="selectGender('wanita')">♀ Wanita</button>
-                </div>
-              </div>
-
-              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 8px;">
-                <div class="form-group" style="margin-bottom: 0;">
-                  <label class="form-label">Berat Badan</label>
-                  <div class="form-input-wrap">
-                    <input type="number" class="form-input" id="inputWeight" value="64" oninput="calculatePersonalLimit()">
-                    <span style="position: absolute; right: 14px; font-size: 12px; color: var(--text-muted);">kg</span>
+              <!-- Biometric Data Card -->
+              <div class="card-clean" style="margin-bottom: 12px;">
+                <div class="form-group" style="margin-bottom: 12px;">
+                  <label class="form-label">Usia (Tahun)</label>
+                  <div class="form-input-wrap" style="position: relative; display: flex; align-items: center;">
+                    <span style="position: absolute; left: 14px; color: var(--text-muted);">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                    </span>
+                    <input type="number" class="form-input" id="inputAge" value="28" style="padding-left: 42px; font-size: 14px; font-weight: 600;" oninput="calculatePersonalLimit()">
+                    <span style="position: absolute; right: 16px; font-size: 12px; color: var(--text-muted); font-weight: 500;">tahun</span>
                   </div>
                 </div>
-                <div class="form-group" style="margin-bottom: 0;">
-                  <label class="form-label">Tinggi Badan</label>
-                  <div class="form-input-wrap">
-                    <input type="number" class="form-input" id="inputHeight" value="172" oninput="calculatePersonalLimit()">
-                    <span style="position: absolute; right: 14px; font-size: 12px; color: var(--text-muted);">cm</span>
+
+                <div class="form-group" style="margin-bottom: 14px;">
+                  <label class="form-label">Jenis Kelamin</label>
+                  <div class="gender-pills-row">
+                    <button type="button" class="gender-pill-btn active" id="btnGenderMale" onclick="selectGender('pria')">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="10" cy="14" r="5"/><line x1="19" y1="5" x2="13.6" y2="10.4"/><polyline points="19 10 19 5 14 5"/></svg>
+                      <span>Pria</span>
+                    </button>
+                    <button type="button" class="gender-pill-btn" id="btnGenderFemale" onclick="selectGender('wanita')">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="9" r="5"/><line x1="12" y1="14" x2="12" y2="21"/><line x1="9" y1="18" x2="15" y2="18"/></svg>
+                      <span>Wanita</span>
+                    </button>
+                  </div>
+                </div>
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 12px;">
+                  <div class="form-group" style="margin-bottom: 0;">
+                    <label class="form-label">Berat Badan</label>
+                    <div class="form-input-wrap" style="position: relative; display: flex; align-items: center;">
+                      <input type="number" class="form-input" id="inputWeight" value="64" style="font-size: 14px; font-weight: 600;" oninput="calculatePersonalLimit()">
+                      <span style="position: absolute; right: 14px; font-size: 12px; color: var(--text-muted); font-weight: 500;">kg</span>
+                    </div>
+                  </div>
+                  <div class="form-group" style="margin-bottom: 0;">
+                    <label class="form-label">Tinggi Badan</label>
+                    <div class="form-input-wrap" style="position: relative; display: flex; align-items: center;">
+                      <input type="number" class="form-input" id="inputHeight" value="172" style="font-size: 14px; font-weight: 600;" oninput="calculatePersonalLimit()">
+                      <span style="position: absolute; right: 14px; font-size: 12px; color: var(--text-muted); font-weight: 500;">cm</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 10px; border-top: 1px solid var(--border-light); font-size: 12px;">
+                  <span style="color: var(--text-body); font-weight: 500;">Indeks Massa Tubuh (IMT):</span>
+                  <span class="pill-badge pill-success" id="bmiBadge" style="font-weight: 700; padding: 4px 10px;">21.6 (Normal)</span>
+                </div>
+              </div>
+
+              <!-- Physical Activity Grid -->
+              <div class="card-clean" style="margin-bottom: 12px;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                  <span class="form-label" style="margin-bottom: 0;">Tingkat Aktivitas Fisik</span>
+                  <span style="font-size: 11px; color: var(--text-muted); font-weight: 500;">Rutinitas Harian</span>
+                </div>
+                <div class="activity-cards-grid">
+                  <div class="activity-tile" id="act-sedentari" onclick="selectActivity('sedentari')">
+                    <div class="activity-tile-icon">
+                      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 9V6a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v3"/><path d="M3 11v5a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v2H7v-2a2 2 0 0 0-4 0z"/><line x1="5" y1="18" x2="5" y2="21"/><line x1="19" y1="18" x2="19" y2="21"/></svg>
+                    </div>
+                    <strong class="activity-tile-title">Sedentari</strong>
+                    <span class="activity-tile-desc">Banyak duduk / minim gerak</span>
+                  </div>
+                  <div class="activity-tile active" id="act-sedang" onclick="selectActivity('sedang')">
+                    <div class="activity-tile-icon">
+                      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="2"/><path d="M10 22l3-7 3-3-2-4-4 2v5"/><path d="M14 15l2 7"/></svg>
+                    </div>
+                    <strong class="activity-tile-title">Sedang</strong>
+                    <span class="activity-tile-desc">Olahraga 3-5 hari/minggu</span>
+                  </div>
+                  <div class="activity-tile" id="act-ringan" onclick="selectActivity('ringan')">
+                    <div class="activity-tile-icon">
+                      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="4" r="2"/><path d="M12 7v7l4 3"/><path d="M8 12l4-2"/><path d="M10 18l2 4 4-2"/></svg>
+                    </div>
+                    <strong class="activity-tile-title">Ringan</strong>
+                    <span class="activity-tile-desc">Jalan santai 1-2 hari/minggu</span>
+                  </div>
+                  <div class="activity-tile" id="act-aktif" onclick="selectActivity('aktif')">
+                    <div class="activity-tile-icon">
+                      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="4" r="2"/><path d="M7 10l5-2 3 3 5-1"/><path d="M11 14l-3 8"/><path d="M14 12l3 5 4 1"/></svg>
+                    </div>
+                    <strong class="activity-tile-title">Aktif</strong>
+                    <span class="activity-tile-desc">Fisik berat / atletik harian</span>
                   </div>
                 </div>
               </div>
 
-              <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 8px; border-top: 1px solid var(--border-card); font-size: 11.5px;">
-                <span style="color: var(--text-body);">Indeks Massa Tubuh (IMT):</span>
-                <span class="pill-badge pill-success" id="bmiBadge">21.6 (Normal)</span>
-              </div>
-            </div>
-
-            <!-- Physical Activity Grid -->
-            <div class="card-clean" style="margin-bottom: 10px;">
-              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                <span class="form-label" style="margin-bottom: 0;">Tingkat Aktivitas Fisik</span>
-                <span style="font-size: 10.5px; color: var(--text-muted);">Rutinitas Harian</span>
-              </div>
-              <div class="activity-cards-grid">
-                <div class="activity-tile" id="act-sedentari" onclick="selectActivity('sedentari')">
-                  <div style="font-size: 18px; margin-bottom: 4px;">🛋️</div>
-                  <strong style="font-size: 12px; display: block;">Sedentari</strong>
-                  <span style="font-size: 10px; color: var(--text-muted);">Banyak duduk / minim gerak</span>
-                </div>
-                <div class="activity-tile active" id="act-sedang" onclick="selectActivity('sedang')">
-                  <div style="font-size: 18px; margin-bottom: 4px;">🏃</div>
-                  <strong style="font-size: 12px; display: block; color: var(--primary-deep);">Sedang</strong>
-                  <span style="font-size: 10px; color: var(--text-muted);">Olahraga 3-5 hari/minggu</span>
-                </div>
-                <div class="activity-tile" id="act-ringan" onclick="selectActivity('ringan')">
-                  <div style="font-size: 18px; margin-bottom: 4px;">🚶</div>
-                  <strong style="font-size: 12px; display: block;">Ringan</strong>
-                  <span style="font-size: 10px; color: var(--text-muted);">Jalan santai 1-2 hari/minggu</span>
-                </div>
-                <div class="activity-tile" id="act-aktif" onclick="selectActivity('aktif')">
-                  <div style="font-size: 18px; margin-bottom: 4px;">⚡</div>
-                  <strong style="font-size: 12px; display: block;">Aktif</strong>
-                  <span style="font-size: 10px; color: var(--text-muted);">Fisik berat / atletik harian</span>
-                </div>
-              </div>
-            </div>
-
-            <!-- Health Focus -->
-            <div class="card-clean" style="margin-bottom: 10px;">
-              <label class="form-label">Kondisi atau Fokus Kesehatan</label>
-              <div style="display: flex; gap: 6px; flex-wrap: wrap;">
-                <button type="button" class="pill-badge pill-success" style="cursor: pointer; background: var(--primary-deep); color: white; border: none; padding: 6px 12px;">✓ Pencegahan Diabetes</button>
-                <button type="button" class="pill-badge pill-neutral" style="cursor: pointer; padding: 6px 12px;">Pradiabetes</button>
-                <button type="button" class="pill-badge pill-neutral" style="cursor: pointer; padding: 6px 12px;">Diet Rendah Kalori</button>
-                <button type="button" class="pill-badge pill-neutral" style="cursor: pointer; padding: 6px 12px;">Umum & Kebugaran</button>
-              </div>
-            </div>
-
-            <!-- Calculated Recommendation -->
-            <div class="calc-recommendation-card">
-              <div style="display: flex; justify-content: space-between; align-items: flex-start;">
-                <div>
-                  <span style="font-size: 10px; font-weight: 800; color: var(--primary-dark); text-transform: uppercase;">✓ Rekomendasi Terpersonalisasi</span>
-                  <h4 style="font-family: var(--font-heading); font-size: 15px; font-weight: 800; color: var(--primary-deep); margin: 2px 0;">Batas Saran Harian Anda</h4>
-                  <p style="font-size: 11px; color: var(--text-muted);">Berdasarkan pedoman gizi Kemenkes RI & WHO.</p>
-                </div>
-                <div style="width: 38px; height: 38px; border-radius: 50%; background: #FFFFFF; display: flex; align-items: center; justify-content: center; color: var(--primary);">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <!-- Health Focus -->
+              <div class="card-clean" style="margin-bottom: 12px;">
+                <label class="form-label" style="margin-bottom: 8px;">Kondisi atau Fokus Kesehatan</label>
+                <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                  <button type="button" class="pill-badge pill-success" style="cursor: pointer; background: var(--primary-deep); color: white; border: none; padding: 6px 14px; font-weight: 600; display: inline-flex; align-items: center; gap: 6px;">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    Pencegahan Diabetes
+                  </button>
+                  <button type="button" class="pill-badge pill-neutral" style="cursor: pointer; padding: 6px 14px; font-weight: 500;">Pradiabetes</button>
+                  <button type="button" class="pill-badge pill-neutral" style="cursor: pointer; padding: 6px 14px; font-weight: 500;">Diet Rendah Kalori</button>
+                  <button type="button" class="pill-badge pill-neutral" style="cursor: pointer; padding: 6px 14px; font-weight: 500;">Umum & Kebugaran</button>
                 </div>
               </div>
 
-              <div style="display: flex; justify-content: space-between; align-items: baseline; margin: 12px 0 6px;">
-                <div style="display: flex; align-items: baseline; gap: 6px;">
-                  <span style="font-family: var(--font-heading); font-size: 36px; font-weight: 800; color: var(--primary-deep);" id="suggestedLimitNum">30</span>
-                  <span style="font-size: 14px; font-weight: 700; color: var(--primary-dark);">gram / hari</span>
+              <!-- Calculated Recommendation Card (Figma Exact) -->
+              <div class="calc-recommendation-card" style="background: #E8FAF4; border: 1.5px solid #A7F3D0; border-radius: 18px; padding: 16px; margin-bottom: 12px;">
+                <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px;">
+                  <div>
+                    <div style="display: flex; align-items: center; gap: 6px; margin-bottom: 2px;">
+                      <span style="color: var(--primary);">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                      </span>
+                      <span style="font-size: 10px; font-weight: 800; color: var(--primary-dark); text-transform: uppercase; letter-spacing: 0.5px;">Rekomendasi Terpersonalisasi</span>
+                    </div>
+                    <h4 style="font-family: var(--font-heading); font-size: 16px; font-weight: 800; color: var(--primary-deep);">Batas Saran Harian Anda</h4>
+                    <p style="font-size: 11px; color: var(--text-muted); line-height: 1.35; margin-top: 2px;">
+                      Berdasarkan pedoman gizi Kemenkes RI & Organisasi Kesehatan Dunia (WHO).
+                    </p>
+                  </div>
+                  <div style="width: 38px; height: 38px; border-radius: 50%; background: #FFFFFF; display: flex; align-items: center; justify-content: center; color: var(--primary); box-shadow: 0 2px 6px rgba(0,0,0,0.06);">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/><line x1="12" y1="3" x2="12" y2="7"/></svg>
+                  </div>
                 </div>
-                <span class="pill-badge pill-neutral" style="background: white;" id="suggestedSpoons">~2.5 sdm gula</span>
-              </div>
-              <div style="font-size: 10.5px; color: var(--text-muted);">
-                ⓘ Alokasi maksimal mencakup gula alami maupun tambahan.
-              </div>
-            </div>
 
-            <button class="btn-primary" onclick="savePersonalLimitAndProceed()">
-              Simpan & Masuk ke Beranda →
-            </button>
-            <div style="font-size: 10px; color: var(--text-muted); text-align: center; margin-top: 8px;">
-              Data Anda tersimpan secara privat di perangkat ini.
-            </div>
-          </section>
+                <div style="height: 1px; background: rgba(5, 150, 105, 0.15); margin: 10px 0;"></div>
+
+                <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;">
+                  <div style="display: flex; align-items: baseline; gap: 6px;">
+                    <span style="font-family: var(--font-heading); font-size: 32px; font-weight: 800; color: var(--primary-deep); line-height: 1;" id="personalLimitDisplay">30</span>
+                    <span style="font-size: 15px; font-weight: 700; color: var(--primary-dark);">gram / hari</span>
+                  </div>
+                  <span class="pill-badge" id="personalLimitSpoons" style="background: #FFFFFF; color: var(--text-body); font-weight: 600; border: 1px solid #CBD5E1; font-size: 11.5px; padding: 4px 10px;">~2.5 sdm gula</span>
+                </div>
+
+                <div style="display: flex; align-items: center; gap: 6px; font-size: 11px; color: var(--text-muted); margin-top: 6px;">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+                  <span>Alokasi maksimal mencakup gula alami maupun tambahan.</span>
+                </div>
+              </div>
+
+              <!-- Medical Disclaimer Note Card -->
+              <div class="card-clean" style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 14px; padding: 12px 14px; margin-bottom: 16px; display: flex; gap: 10px; align-items: flex-start;">
+                <div style="color: #64748B; margin-top: 2px;">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M12 8v8"/><path d="M8 12h8"/></svg>
+                </div>
+                <p style="font-size: 11px; color: var(--text-muted); line-height: 1.45; margin: 0;">
+                  <strong style="color: var(--text-body);">Catatan:</strong> Batas ini merupakan panduan estimasi informasi gizi umum. Konsultasikan dengan dokter spesialis gizi untuk anjuran medis khusus dan rencana diet klinis.
+                </p>
+              </div>
+
+              <!-- Full Width Action CTA -->
+              <button class="btn btn-primary" style="margin-bottom: 8px; width: 100%; height: 50px; border-radius: 25px; font-size: 15px; font-weight: 700; display: flex; align-items: center; justify-content: center; gap: 8px;" onclick="savePersonalLimitAndGoHome()">
+                <span>Simpan & Masuk ke Beranda</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </button>
+              <div style="text-align: center; font-size: 11px; color: var(--text-muted); margin-bottom: 16px;">
+                Data Anda tersimpan secara privat di perangkat ini.
+              </div>
+            </section>
 
 
           <!-- ==========================================
@@ -478,7 +523,7 @@
               <div>
                 <h3 class="user-greeting-name" id="homeGreetingName" style="font-family: var(--font-heading); font-size: 22px; font-weight: 800; color: #0F172A; display: flex; align-items: center; gap: 8px;">
                   Halo, Budi!
-                  <span style="font-size: 20px;">🌿</span>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2.2" style="display:inline-block; vertical-align:middle;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
                 </h3>
                 <div class="user-greeting-date" id="homeCurrentDate" style="font-size: 13px; color: #64748B; display: flex; align-items: center; gap: 6px; margin-top: 3px;">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#64748B" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
@@ -675,140 +720,184 @@
           <!-- ==========================================
                SCREEN 7: ANALISIS GULA PRODUK KEMASAN
                ========================================== -->
-          <section id="screen-product-analysis" class="screen-view">
-            <div class="screen-header">
-              <button class="header-icon-btn" onclick="navigateTo('screen-home')">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+          <section id="screen-product-analysis" class="screen-view screen-immersive">
+              <div class="screen-header">
+                <button class="header-icon-btn" onclick="navigateTo('screen-smartscan')" aria-label="Kembali ke Scanner">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+                </button>
+                <div class="screen-header-center">Analisis Gula Produk</div>
+                <button class="header-icon-btn" onclick="bookmarkProduct()" aria-label="Simpan">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+                </button>
+              </div>
+
+              <!-- Product Hero Card (Figma Exact) -->
+              <div class="product-hero-card" style="background: #FFFFFF; border: 1px solid var(--border-card); border-radius: 24px; padding: 18px 16px; text-align: center; margin-bottom: 12px;">
+                <div class="product-arch-container">
+                  <div class="product-arch-frame">
+                    <img src="assets/product_tea_apple.png" alt="Teh Rasa Apel" class="product-arch-img">
+                    <span class="product-arch-badge">Kemasan Botol</span>
+                  </div>
+                </div>
+                <div class="product-category-label" style="font-size: 11px; font-weight: 600; color: var(--text-muted); margin-bottom: 4px;">Teh Buah Siap Minum</div>
+                <h2 class="product-title-large" style="font-family: var(--font-heading); font-size: 20px; font-weight: 800; color: var(--text-main); margin-bottom: 4px;">Teh Rasa Apel 350ml</h2>
+                <div class="product-serving-sub" style="font-size: 12px; color: var(--text-muted); margin-bottom: 12px;">Takaran saji: 1 botol (350 ml)</div>
+                <div class="product-tags-row" style="display: flex; justify-content: center; gap: 8px;">
+                  <span class="pill-badge pill-danger" id="prodGradeBadge" style="font-weight: 700; display: inline-flex; align-items: center; gap: 5px; padding: 5px 12px;">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                    TINGGI GULA
+                  </span>
+                  <span class="pill-badge pill-info" id="prodSugarAmount" style="font-weight: 700; display: inline-flex; align-items: center; gap: 5px; padding: 5px 12px;">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+                    24g / botol
+                  </span>
+                </div>
+              </div>
+
+              <!-- Personal Quota Impact Card (Figma Exact) -->
+              <div class="card-clean" style="margin-bottom: 12px;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                  <div style="display: flex; align-items: center; gap: 10px;">
+                    <div style="width: 36px; height: 36px; border-radius: 50%; background: #FEE2E2; display: flex; align-items: center; justify-content: center; color: var(--danger);">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                    </div>
+                    <div>
+                      <strong style="font-size: 13.5px; color: var(--text-main); display: block;">Peringatan Kuota Personal</strong>
+                      <span style="font-size: 11px; color: var(--text-muted);">Batas Harian Anda: 30g</span>
+                    </div>
+                  </div>
+                  <div style="font-family: var(--font-heading); font-size: 24px; font-weight: 800; color: var(--danger);">
+                    80%
+                  </div>
+                </div>
+
+                <div style="width: 100%; height: 8px; background: #FEE2E2; border-radius: 4px; overflow: hidden; margin-bottom: 8px;">
+                  <div style="width: 80%; height: 100%; background: var(--danger); border-radius: 4px;"></div>
+                </div>
+
+                <div style="display: flex; justify-content: space-between; font-size: 11px; font-weight: 600; margin-bottom: 12px;">
+                  <span style="color: var(--danger);">Produk ini: 24g</span>
+                  <span style="color: var(--primary);">Sisa kuota hari ini: 6g lagi</span>
+                </div>
+
+                <div style="background: #FFF5F5; border-left: 3px solid var(--danger); padding: 10px 12px; border-radius: 6px; font-size: 11.5px; color: var(--text-body); line-height: 1.45; margin-bottom: 12px;">
+                  Mengandung <strong>80% dari total batas harian gula Anda (30g)</strong>. Mengonsumsi botol ini menyisakan sangat sedikit ruang untuk makanan/minuman manis lainnya hari ini.
+                </div>
+
+                <div style="background: #FFFBEB; border: 1px solid #FDE68A; border-radius: 12px; padding: 12px; display: flex; align-items: center; gap: 12px;">
+                  <div style="width: 40px; height: 40px; border-radius: 50%; background: #FEF3C7; display: flex; align-items: center; justify-content: center; color: #D97706; flex-shrink: 0;">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3z"/><path d="M6 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3z"/></svg>
+                  </div>
+                  <div>
+                    <div style="font-size: 11px; font-weight: 600; color: #92400E;">Ekuivalensi Sendok Teh</div>
+                    <div style="font-size: 12.5px; font-weight: 700; color: #78350F;" id="prodSpoonDesc">Setara dengan 6 sendok teh gula pasir</div>
+                    <div style="font-size: 10.5px; color: #B45309;">(1 sdt gula pasir ≈ 4 gram)</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Nutrition Facts Table -->
+              <div class="card-clean" style="margin-bottom: 12px;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                  <div style="display: flex; align-items: center; gap: 6px;">
+                    <span style="color: var(--primary);">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                    </span>
+                    <span style="font-size: 13.5px; font-weight: 700; color: var(--text-main);">Informasi Nilai Gizi</span>
+                  </div>
+                  <span class="pill-badge pill-success" style="font-size: 10px; font-weight: 700;">Terverifikasi BPOM RI</span>
+                </div>
+
+                <div style="display: flex; justify-content: space-between; font-size: 11.5px; padding-bottom: 8px; border-bottom: 1px solid var(--border-light); margin-bottom: 10px;">
+                  <span style="color: var(--text-muted);">Ukuran Takaran Saji</span>
+                  <strong style="color: var(--text-main);">350 ml (1 botol)</strong>
+                </div>
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 12px;">
+                  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 10px; padding: 10px 12px;">
+                    <div style="font-size: 10.5px; color: var(--text-muted);">Energi Total</div>
+                    <div style="font-family: var(--font-heading); font-size: 18px; font-weight: 800; color: var(--text-main);">130 <span style="font-size: 11px; font-weight: 600;">kkal</span></div>
+                  </div>
+                  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 10px; padding: 10px 12px;">
+                    <div style="font-size: 10.5px; color: var(--text-muted);">Natrium</div>
+                    <div style="font-family: var(--font-heading); font-size: 18px; font-weight: 800; color: var(--text-main);">35 <span style="font-size: 11px; font-weight: 600;">mg</span></div>
+                  </div>
+                </div>
+
+                <div style="background: #FFF5F5; border: 1px solid #FECACA; border-radius: 10px; padding: 12px;">
+                  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
+                    <strong style="font-size: 13px; color: var(--danger);">Gula Total</strong>
+                    <strong style="font-family: var(--font-heading); font-size: 16px; color: var(--danger);">24 g</strong>
+                  </div>
+                  <div class="sugar-breakdown-row">
+                    <div style="display: flex; justify-content: space-between; font-size: 11px; color: var(--text-body);">
+                      <span>Sukrosa (Gula Tambahan)</span>
+                      <strong>22 g</strong>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; font-size: 11px; color: var(--text-muted);">
+                      <span>Glukosa Alami (Ekstrak Apel)</span>
+                      <span>2 g</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Healthy Alternatives -->
+              <div class="card-clean" style="margin-bottom: 12px;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                  <div style="display: flex; align-items: center; gap: 6px;">
+                    <span style="color: var(--primary);">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </span>
+                    <span style="font-size: 13px; font-weight: 700;">Alternatif Lebih Sehat</span>
+                  </div>
+                  <span style="font-size: 10.5px; font-weight: 700; color: var(--primary);">Rekomendasi Cerdas</span>
+                </div>
+
+                <div style="display: flex; flex-direction: column; gap: 8px;">
+                  <div style="display: flex; align-items: center; justify-content: space-between; padding: 10px; background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; cursor: pointer;" onclick="alert('Rekomendasi: Teh Tawar Hangat tanpa gula (0 kalori & 0g gula)')">
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                      <div class="log-icon-thumb" style="background: #E8FAF4; color: var(--primary);">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+                      </div>
+                      <div>
+                        <div style="font-size: 12px; font-weight: 700; color: var(--text-main);">Teh Hijau / Hitam Tawar</div>
+                        <div style="font-size: 10.5px; color: var(--text-muted);">Tanpa gula tambahan sama sekali</div>
+                      </div>
+                    </div>
+                    <span class="pill-badge pill-success" style="font-size: 10.5px; font-weight: 700;">0g Gula</span>
+                  </div>
+
+                  <div style="display: flex; align-items: center; justify-content: space-between; padding: 10px; background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; cursor: pointer;" onclick="alert('Rekomendasi: Infused water dengan potongan buah alami')">
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                      <div class="log-icon-thumb" style="background: #E8FAF4; color: var(--primary);">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+                      </div>
+                      <div>
+                        <div style="font-size: 12px; font-weight: 700; color: var(--text-main);">Air Infusi Apel & Kayu Manis</div>
+                        <div style="font-size: 10.5px; color: var(--text-muted);">Rasa manis alami dan menyegarkan</div>
+                      </div>
+                    </div>
+                    <span class="pill-badge pill-success" style="font-size: 10.5px; font-weight: 700;">&lt; 1g Gula</span>
+                  </div>
+                </div>
+              </div>
+
+              <div style="text-align: center; font-size: 11px; color: var(--text-muted); line-height: 1.4; margin-bottom: 14px;">
+                Berdasarkan tabel nilai gizi pada kemasan. Tidak menggantikan diagnosa medis.
+              </div>
+
+              <!-- Two Full-Width CTAs -->
+              <button class="btn btn-primary" style="width: 100%; height: 50px; border-radius: 25px; font-size: 15px; font-weight: 700; display: flex; align-items: center; justify-content: center; gap: 8px; margin-bottom: 10px;" onclick="addProductToDailyLog()">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                <span>Tambahkan ke Konsumsi Hari Ini</span>
               </button>
-              <div class="screen-header-center">Analisis Gula Produk</div>
-              <button class="header-icon-btn" onclick="alert('Produk berhasil disimpan ke daftar pantauan!')">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+
+              <button class="btn btn-secondary" style="width: 100%; height: 46px; border-radius: 23px; font-size: 14px; font-weight: 600; display: flex; align-items: center; justify-content: center; gap: 8px; margin-bottom: 20px; background: #F1F5F9; border: 1px solid #CBD5E1; color: var(--text-body);" onclick="bookmarkProduct()">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+                <span>Simpan ke Daftar Pantauan</span>
               </button>
-            </div>
-
-            <!-- Product Hero Card -->
-            <div class="product-hero-card">
-              <div class="product-img-circle">
-                <span style="font-size: 52px;">🧃</span>
-                <span class="pill-badge pill-neutral" id="prodPackagingLabel" style="position: absolute; bottom: 8px; font-size: 9.5px; background: rgba(255,255,255,0.9);">Kemasan Botol</span>
-              </div>
-              <span class="pill-badge pill-neutral" id="prodAnalysisCat" style="font-size: 10px; margin-bottom: 4px;">Teh Buah Siap Minum</span>
-              <h2 style="font-family: var(--font-heading); font-size: 18px; font-weight: 800; color: var(--text-main);" id="prodAnalysisTitle">Teh Rasa Apel 350ml</h2>
-              <div style="font-size: 11.5px; color: var(--text-muted); margin-bottom: 10px;" id="prodAnalysisServing">Takaran saji: 1 botol (350 ml)</div>
-
-              <div style="display: flex; justify-content: center; gap: 8px;">
-                <span class="pill-badge pill-danger" id="prodGradeBadge" style="font-weight: 800;">⚠ TINGGI GULA</span>
-                <span class="pill-badge pill-info" id="prodSugarAmount" style="font-weight: 700;">💧 24g / botol</span>
-              </div>
-            </div>
-
-            <!-- Personal Warning Card -->
-            <div class="card-clean">
-              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                <div style="display: flex; align-items: center; gap: 8px;">
-                  <span style="font-size: 18px;">🔥</span>
-                  <div>
-                    <h5 style="font-size: 12.5px; font-weight: 700;">Peringatan Kuota Personal</h5>
-                    <div style="font-size: 10.5px; color: var(--text-muted);">Batas Harian Anda: 30g</div>
-                  </div>
-                </div>
-                <span style="font-family: var(--font-heading); font-size: 24px; font-weight: 800; color: var(--danger);" id="prodWarningPercent">80%</span>
-              </div>
-
-              <div style="width: 100%; height: 6px; background: #FEE2E2; border-radius: var(--radius-full); overflow: hidden; margin-bottom: 6px;">
-                <div style="width: 80%; height: 100%; background: var(--danger);"></div>
-              </div>
-
-              <div style="display: flex; justify-content: space-between; font-size: 10.5px; color: var(--text-muted); margin-bottom: 10px;">
-                <span>Produk ini: 24g</span>
-                <span style="color: var(--primary-dark); font-weight: 600;">Sisa kuota hari ini: 6g lagi</span>
-              </div>
-
-              <div style="background: #FFF5F5; border-left: 3px solid var(--danger); padding: 10px 12px; border-radius: var(--radius-xs); font-size: 11.5px; color: var(--text-body); line-height: 1.45;" id="prodWarningDesc">
-                Mengandung <strong>80% dari total batas harian gula Anda (30g)</strong>. Mengonsumsi botol ini menyisakan sangat sedikit ruang untuk makanan/minuman manis lainnya hari ini.
-              </div>
-
-              <!-- Spoon Equiv -->
-              <div style="display: flex; align-items: center; gap: 10px; background: #FFFBEB; border: 1px solid #FDE68A; border-radius: var(--radius-md); padding: 10px 12px; margin-top: 10px;">
-                <span style="font-size: 22px;">🥄</span>
-                <div>
-                  <div style="font-size: 10.5px; font-weight: 700; color: #92400E;">Ekuivalensi Sendok Teh</div>
-                  <div style="font-size: 11.5px; font-weight: 600; color: #78350F;" id="prodSpoonDesc">Setara dengan 6 sendok teh gula pasir (1 sdt ≈ 4g)</div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Nutrition Facts Table -->
-            <div class="card-clean">
-              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                <span style="font-size: 12.5px; font-weight: 700;">✓ Informasi Nilai Gizi</span>
-                <span class="pill-badge pill-success" style="font-size: 9.5px;">Terverifikasi BPOM RI</span>
-              </div>
-
-              <div style="font-size: 11.5px; color: var(--text-muted); padding: 4px 0 8px; border-bottom: 1px solid var(--border-card);">
-                Ukuran Takaran Saji: <strong style="color: var(--text-main);" id="tableServing">350 ml (1 botol)</strong>
-              </div>
-
-              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 10px 0;">
-                <div style="background: var(--bg-app); padding: 8px 12px; border-radius: var(--radius-sm);">
-                  <div style="font-size: 10.5px; color: var(--text-muted);">Energi Total</div>
-                  <div style="font-family: var(--font-heading); font-size: 16px; font-weight: 800;" id="tableCalories">130 kkal</div>
-                </div>
-                <div style="background: var(--bg-app); padding: 8px 12px; border-radius: var(--radius-sm);">
-                  <div style="font-size: 10.5px; color: var(--text-muted);">Natrium</div>
-                  <div style="font-family: var(--font-heading); font-size: 16px; font-weight: 800;" id="tableSodium">35 mg</div>
-                </div>
-              </div>
-
-              <div style="background: #FFF5F5; border-radius: var(--radius-sm); padding: 10px 12px;">
-                <div style="display: flex; justify-content: space-between; font-weight: 800; font-size: 13px; color: var(--danger-dark);">
-                  <span>Gula Total</span>
-                  <span id="tableSugarTotal">24 g</span>
-                </div>
-                <div style="font-size: 11px; color: var(--text-muted); margin-top: 4px;">
-                  <div style="display: flex; justify-content: space-between;"><span>• Sukrosa (Gula Tambahan)</span><span id="tableSucrose">22 g</span></div>
-                  <div style="display: flex; justify-content: space-between;"><span>• Glukosa Alami (Ekstrak Apel)</span><span id="tableGlucose">2 g</span></div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Healthier Alternatives -->
-            <div style="margin-bottom: 14px;">
-              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-                <span style="font-size: 12.5px; font-weight: 700;">✦ Alternatif Lebih Sehat</span>
-                <span style="font-size: 11px; color: var(--primary); font-weight: 600;">Rekomendasi Cerdas</span>
-              </div>
-
-              <div class="log-item-card">
-                <div style="display: flex; align-items: center;">
-                  <div class="log-icon-thumb" style="background: #E8FAF4; color: var(--primary);">🍵</div>
-                  <div>
-                    <h5>Teh Hijau / Hitam Tawar</h5>
-                    <div style="font-size: 10.5px; color: var(--text-muted);">Tanpa gula tambahan sama sekali</div>
-                  </div>
-                </div>
-                <span class="pill-badge pill-success">0g Gula</span>
-              </div>
-
-              <div class="log-item-card">
-                <div style="display: flex; align-items: center;">
-                  <div class="log-icon-thumb" style="background: #E8FAF4; color: var(--primary);">🍋</div>
-                  <div>
-                    <h5>Air Infusi Apel & Kayu Manis</h5>
-                    <div style="font-size: 10.5px; color: var(--text-muted);">Rasa manis alami dan menyegarkan</div>
-                  </div>
-                </div>
-                <span class="pill-badge pill-success">&lt; 1g Gula</span>
-              </div>
-            </div>
-
-            <button class="btn-primary" style="margin-bottom: 8px;" onclick="addCurrentProductToTodayLog()">
-              + Tambahkan ke Konsumsi Hari Ini
-            </button>
-            <button class="btn-secondary" onclick="alert('Produk disimpan ke daftar pantauan!'); navigateTo('screen-home');">
-              📋 Simpan ke Daftar Pantauan
-            </button>
-          </section>
+            </section>
 
 
           <!-- ==========================================
@@ -829,7 +918,7 @@
             <div class="card-clean">
               <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
                 <div style="display: flex; align-items: center; gap: 6px;">
-                  <span style="color: var(--primary);">🛡️</span>
+                  <span style="color: var(--primary);"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
                   <strong style="font-size: 12.5px;">Profil Metabolisme Aktif</strong>
                 </div>
                 <span class="pill-badge pill-success" style="font-size: 10px;">Target Harian</span>
@@ -881,7 +970,7 @@
               </div>
 
               <div class="stepper-capsule">
-                <button type="button" class="stepper-btn" onclick="document.getElementById('portionRangeSlider').value = Math.max(0.5, parseFloat(document.getElementById('portionRangeSlider').value) - 0.5); updateCalculatorSimulation();">–</button>
+                <button type="button" class="stepper-btn" onclick="document.getElementById('portionRangeSlider').value = Math.max(0.5, parseFloat(document.getElementById('portionRangeSlider').value) - 0.5); updateCalculatorSimulation();">-</button>
                 <span style="font-family: var(--font-heading); font-size: 18px; font-weight: 800; color: var(--primary-dark);" id="portionValueText">1.5 gelas</span>
                 <button type="button" class="stepper-btn" onclick="document.getElementById('portionRangeSlider').value = Math.min(3.0, parseFloat(document.getElementById('portionRangeSlider').value) + 0.5); updateCalculatorSimulation();">+</button>
               </div>
@@ -898,7 +987,7 @@
             <div class="card-clean" id="calcResultContainer" style="border-color: #FCA5A5; background: #FFF5F5;">
               <div style="display: flex; justify-content: space-between; align-items: center;">
                 <h4 style="font-family: var(--font-heading); font-size: 14px; font-weight: 800;">Hasil Analisis Real-Time</h4>
-                <span class="pill-badge pill-danger" id="calcWarningPill">OVER LIMIT ⚠️</span>
+                <span class="pill-badge pill-danger" id="calcWarningPill">OVER LIMIT</span>
               </div>
 
               <div style="display: flex; justify-content: space-between; align-items: center; margin: 12px 0;">
@@ -921,12 +1010,12 @@
               </div>
 
               <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; color: var(--text-body); background: #EEF2FF; padding: 8px 12px; border-radius: var(--radius-sm); margin-bottom: 8px;">
-                <span>🚶</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="2"/><path d="M10 22l3-7 3-3-2-4-4 2v5"/><path d="M14 15l2 7"/></svg>
                 <div><strong>Waktu Pembakaran Alami:</strong> Memerlukan jalan santai ~35 menit untuk menyeimbangkan metabolisme.</div>
               </div>
 
               <div style="display: flex; align-items: center; gap: 8px; font-size: 11px; color: var(--primary-deep); background: #E8FAF4; padding: 8px 12px; border-radius: var(--radius-sm);">
-                <span>💡</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M12 2a7 7 0 0 0-7 7c0 2.5 1.5 4.5 3 6h8c1.5-1.5 3-3.5 3-6a7 7 0 0 0-7-7z"/></svg>
                 <div><strong>Saran Pilihan Alternatif:</strong> Ganti opsi pemanis <em>Less Sugar 50%</em> (~13g gula - Masuk batas aman).</div>
               </div>
             </div>
@@ -1064,18 +1153,18 @@
               <div class="trend-stat-tile">
                 <div style="display: flex; justify-content: space-between; align-items: center;">
                   <span style="font-size: 10px; font-weight: 700; color: var(--text-muted); text-transform: uppercase;">Rata-Rata Harian</span>
-                  <span style="color: var(--primary);">📈</span>
+                  <span style="color: var(--primary);"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg></span>
                 </div>
                 <div style="font-family: var(--font-heading); font-size: 22px; font-weight: 800; color: var(--primary-deep); margin: 3px 0;">
                   22.4 <span style="font-size: 12px; color: var(--text-muted);">g/hari</span>
                 </div>
-                <span class="pill-badge pill-success" style="font-size: 9.5px;">↘ Turun 15% 🎉</span>
+                <span class="pill-badge pill-success" style="font-size: 9.5px;">↘ Turun 15%</span>
               </div>
 
               <div class="trend-stat-tile">
                 <div style="display: flex; justify-content: space-between; align-items: center;">
                   <span style="font-size: 10px; font-weight: 700; color: var(--text-muted); text-transform: uppercase;">Disiplin Batas</span>
-                  <span style="color: var(--primary);">🎯</span>
+                  <span style="color: var(--primary);"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span>
                 </div>
                 <div style="font-family: var(--font-heading); font-size: 22px; font-weight: 800; color: var(--primary); margin: 3px 0;">
                   5 <span style="font-size: 13px; color: var(--text-muted);">/ 7 Hari</span>
@@ -1116,12 +1205,12 @@
 
             <!-- Insights Section -->
             <div style="margin-bottom: 12px;">
-              <span class="section-title">✦ Wawasan Pola Konsumsi</span>
+              <span class="section-title"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:inline-block; vertical-align:middle; margin-right:4px;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> Wawasan Pola Konsumsi</span>
 
               <div class="card-clean" style="margin-top: 8px;">
                 <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 4px;">
                   <div style="display: flex; align-items: center; gap: 8px;">
-                    <div style="width: 28px; height: 28px; border-radius: 50%; background: #FEE2E2; display: flex; align-items: center; justify-content: center; color: var(--danger);">☕</div>
+                    <div style="width: 28px; height: 28px; border-radius: 50%; background: #FEE2E2; display: flex; align-items: center; justify-content: center; color: var(--danger);"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/></svg></div>
                     <strong style="font-size: 12.5px;">Penyumbang Gula Terbesar</strong>
                   </div>
                   <span class="pill-badge pill-danger" style="font-size: 9.5px;">65% Total</span>
@@ -1134,7 +1223,7 @@
               <div class="card-clean">
                 <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 4px;">
                   <div style="display: flex; align-items: center; gap: 8px;">
-                    <div style="width: 28px; height: 28px; border-radius: 50%; background: #E8FAF4; display: flex; align-items: center; justify-content: center; color: var(--primary);">💡</div>
+                    <div style="width: 28px; height: 28px; border-radius: 50%; background: #E8FAF4; display: flex; align-items: center; justify-content: center; color: var(--primary);"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M12 2a7 7 0 0 0-7 7c0 2.5 1.5 4.5 3 6h8c1.5-1.5 3-3.5 3-6a7 7 0 0 0-7-7z"/></svg></div>
                     <strong style="font-size: 12.5px;">Rekomendasi Cerdas</strong>
                   </div>
                   <span class="pill-badge pill-success" style="font-size: 9.5px;">Potensi -90g</span>
@@ -1146,7 +1235,7 @@
 
               <div class="card-clean" style="display: flex; justify-content: space-between; align-items: center; cursor: pointer;" onclick="alert('Laporan PDF bulanan berhasil diunduh!')">
                 <div style="display: flex; align-items: center; gap: 10px;">
-                  <div style="width: 32px; height: 32px; border-radius: 8px; background: #EEF2FF; display: flex; align-items: center; justify-content: center; color: #6366F1;">📅</div>
+                  <div style="width: 32px; height: 32px; border-radius: 8px; background: #EEF2FF; display: flex; align-items: center; justify-content: center; color: #6366F1;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#4F46E5" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
                   <div>
                     <div style="font-size: 12px; font-weight: 700;">Laporan Tren Lengkap Bulanan</div>
                     <div style="font-size: 10.5px; color: var(--text-muted);">Tersedia per 1 Juni untuk analisis lab rutin</div>
